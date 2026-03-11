@@ -54,10 +54,10 @@
           <mxGeometry x="410" y="910" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9" value="可见光变焦相机&lt;br&gt;(&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:11.0pt;&lt;br/&gt;line-height:125%;font-family:宋体;mso-ascii-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-hansi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-font-family:Arial;mso-ansi-language:&lt;br/&gt;EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;表计读数、油污识别&lt;/span&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="165" y="133" width="200" height="40" as="geometry" />
+          <mxGeometry x="155" y="133" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="11" value="视觉检测相机&lt;br&gt;(&lt;span style=&quot;font-family: 宋体; font-size: 16px;&quot;&gt;绝缘诊断、异常热源追踪&lt;/span&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="525" y="133" width="150" height="40" as="geometry" />
+          <mxGeometry x="520" y="133" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="13" value="局部放电传感器&lt;br&gt;(触发烟雾警报，联动火灾消防)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="815" y="133" width="180" height="40" as="geometry" />
