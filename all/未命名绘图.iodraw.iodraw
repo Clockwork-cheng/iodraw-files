@@ -10,14 +10,14 @@
         <mxCell id="fR1S_rhgQxEKUXzB4KUW-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="155" y="580" width="570" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="fR1S_rhgQxEKUXzB4KUW-0" value="底层控制板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="380" y="830" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="fR1S_rhgQxEKUXzB4KUW-3" value="jetson开发板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="380" y="650" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fR1S_rhgQxEKUXzB4KUW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fR1S_rhgQxEKUXzB4KUW-5" target="fR1S_rhgQxEKUXzB4KUW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fR1S_rhgQxEKUXzB4KUW-5" value="底层控制板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="370" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="830" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
