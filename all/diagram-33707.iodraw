@@ -45,7 +45,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4" value="感知数据处理与场景识别" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;gradientColor=none;gradientDirection=north;" parent="1" vertex="1">
-          <mxGeometry x="400" y="360" width="300" height="40" as="geometry" />
+          <mxGeometry x="400" y="360" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5" value="控制核心&lt;br&gt;(核心处理器&amp;amp;运动控制器)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="405" y="900" width="300" height="60" as="geometry" />
