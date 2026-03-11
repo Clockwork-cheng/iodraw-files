@@ -87,7 +87,7 @@
           <mxGeometry x="440" y="430" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="26" value="后台系统信息处理&lt;div&gt;开发板信息传输&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="630" y="430" width="200" height="50" as="geometry" />
+          <mxGeometry x="630" y="425" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="28" value="移动闭环控制&lt;br&gt;(电机/机械臂动作)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="880" y="430" width="150" height="40" as="geometry" />
