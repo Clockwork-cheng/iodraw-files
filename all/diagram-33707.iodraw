@@ -83,9 +83,6 @@
         <mxCell id="_4pv8P2xKgIBkmBELiVQ-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="24" target="25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="24" value="自主移动与巡检任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="250" y="430" width="150" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="25" value="指令控制信息&lt;br&gt;&lt;div&gt;任务发布信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="450" y="430" width="150" height="40" as="geometry" />
         </mxCell>
@@ -106,17 +103,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="29" value="专用作业任务&lt;br&gt;(螺栓/润滑/操作)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="250" y="580" width="150" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="30" value="闭环反馈控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="440" y="580" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="36" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
           <mxGeometry x="660" y="660" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="37" value="异常诊断与&lt;br&gt;报警模式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#EF5350;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="260" y="745" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="38" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
           <mxGeometry x="260" y="740" width="30" height="30" as="geometry" />
@@ -257,6 +248,18 @@
               <mxPoint x="860" y="529" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6Pe61KdvbRuFV-c6W7HB-91" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="250" y="430" width="150" height="365" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="自主移动与巡检任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="6Pe61KdvbRuFV-c6W7HB-91" vertex="1">
+          <mxGeometry width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="专用作业任务&lt;br&gt;(螺栓/润滑/操作)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="6Pe61KdvbRuFV-c6W7HB-91" vertex="1">
+          <mxGeometry y="150" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="异常诊断与&lt;br&gt;报警模式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#EF5350;fontColor=#333333;fontSize=12;" parent="6Pe61KdvbRuFV-c6W7HB-91" vertex="1">
+          <mxGeometry y="315" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
