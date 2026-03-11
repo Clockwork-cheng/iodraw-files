@@ -48,7 +48,7 @@
         <mxCell id="11" value="视觉检测相机&lt;br&gt;(&lt;span style=&quot;font-family: 宋体; font-size: 16px;&quot;&gt;绝缘诊断、异常热源追踪&lt;/span&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="525" y="136" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="烟雾传感器&lt;br&gt;(触发烟雾警报，联动火灾消防)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="13" value="局部放电传感器&lt;br&gt;(触发烟雾警报，联动火灾消防)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="815" y="133" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="14" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
