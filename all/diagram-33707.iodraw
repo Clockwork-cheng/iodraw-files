@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="d1e2f3g4-h5i6-7j8k-9l0m-1n2o3p4q5r6s">
-    <mxGraphModel dx="904" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1285" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,10 +54,10 @@
           <mxGeometry x="410" y="910" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9" value="可见光变焦相机&lt;br&gt;(&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:11.0pt;&lt;br/&gt;line-height:125%;font-family:宋体;mso-ascii-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-hansi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-font-family:Arial;mso-ansi-language:&lt;br/&gt;EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;表计读数、油污识别&lt;/span&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="165" y="136" width="200" height="40" as="geometry" />
+          <mxGeometry x="165" y="133" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="11" value="视觉检测相机&lt;br&gt;(&lt;span style=&quot;font-family: 宋体; font-size: 16px;&quot;&gt;绝缘诊断、异常热源追踪&lt;/span&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="525" y="136" width="150" height="40" as="geometry" />
+          <mxGeometry x="525" y="133" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="13" value="局部放电传感器&lt;br&gt;(触发烟雾警报，联动火灾消防)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="815" y="133" width="180" height="40" as="geometry" />
