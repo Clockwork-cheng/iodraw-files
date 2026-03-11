@@ -13,9 +13,6 @@
         <mxCell id="6Pe61KdvbRuFV-c6W7HB-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="30" target="6Pe61KdvbRuFV-c6W7HB-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6Pe61KdvbRuFV-c6W7HB-69" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="640" y="500" width="220" height="200" as="geometry" />
-        </mxCell>
         <mxCell id="_4pv8P2xKgIBkmBELiVQ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_4pv8P2xKgIBkmBELiVQ-83" target="4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -106,15 +103,6 @@
         </mxCell>
         <mxCell id="30" value="闭环反馈控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="440" y="580" width="150" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="31" value="&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:11.0pt;&lt;br/&gt;line-height:125%;font-family:宋体;mso-ascii-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-hansi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-font-family:Arial;mso-ansi-language:&lt;br/&gt;EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;视觉靶向定位&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="650" y="510" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="33" value="&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:11.0pt;&lt;br/&gt;line-height:125%;font-family:宋体;mso-ascii-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-hansi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-font-family:Arial;mso-ansi-language:&lt;br/&gt;EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;机械臂视觉对接&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="650" y="575" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="35" value="功能执行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="650" y="640" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="36" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
           <mxGeometry x="660" y="660" width="30" height="30" as="geometry" />
@@ -245,6 +233,21 @@
         </mxCell>
         <mxCell id="6Pe61KdvbRuFV-c6W7HB-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="39" target="39">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Pe61KdvbRuFV-c6W7HB-82" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="640" y="500" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6Pe61KdvbRuFV-c6W7HB-69" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="6Pe61KdvbRuFV-c6W7HB-82">
+          <mxGeometry width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:11.0pt;&lt;br/&gt;line-height:125%;font-family:宋体;mso-ascii-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-hansi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-font-family:Arial;mso-ansi-language:&lt;br/&gt;EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;视觉靶向定位&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="6Pe61KdvbRuFV-c6W7HB-82" vertex="1">
+          <mxGeometry x="10" y="10" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:11.0pt;&lt;br/&gt;line-height:125%;font-family:宋体;mso-ascii-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-hansi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-font-family:Arial;mso-ansi-language:&lt;br/&gt;EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;机械臂视觉对接&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="6Pe61KdvbRuFV-c6W7HB-82" vertex="1">
+          <mxGeometry x="10" y="75" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="功能执行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="6Pe61KdvbRuFV-c6W7HB-82" vertex="1">
+          <mxGeometry x="10" y="140" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
