@@ -57,6 +57,9 @@
         <mxCell id="23" value="工业级防风麦克风降列&lt;br&gt;(提取声效FFT转证/识剧眉播鸣响)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="815" y="200.25" width="180" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="_4pv8P2xKgIBkmBELiVQ-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="24" value="自主移动与巡检任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="250" y="430" width="150" height="40" as="geometry" />
         </mxCell>
@@ -68,6 +71,9 @@
         </mxCell>
         <mxCell id="27" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
           <mxGeometry x="660" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_4pv8P2xKgIBkmBELiVQ-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="28" target="4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="28" value="移动闭环控制&lt;br&gt;(底座/机械管动作)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="880" y="430" width="150" height="40" as="geometry" />
