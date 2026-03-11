@@ -1,0 +1,341 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="d1e2f3g4-h5i6-7j8k-9l0m-1n2o3p4q5r6s">
+    <mxGraphModel dx="1221" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="97d8f6f4-29a1-4903-b6d1-49d178f9124e" value="Converted by ImageToDrawio" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;fontSize=70;fontColor=#E0E0E0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="375" width="500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="风电机舱挂轨巡检机器人感知与控制闭环流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="100" y="20" width="900" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="环境与状态感知 (多概态传感器输入)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;fontColor=#333333;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="350" y="90" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="感知数据处理与场景识别" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;fontColor=#333333;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="400" y="360" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="控制核心&lt;br&gt;(核心处理器&amp;amp;运动控制器)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;fontColor=#333333;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="400" y="900" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="410" y="910" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="50" y="450" width="300" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="8" style="ellipse;fillColor=#EF5350;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="150" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="500万像象可见光变焦相机&lt;br&gt;(表计读数/油污识测/观览对孔)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="120" y="145" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="350" y="150" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="视觉检测相机&lt;br&gt;(配合自主滴清对姓)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="370" y="145" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="12" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="550" y="150" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="烟雾/轻过传感器&lt;br&gt;(交叉经正触发燃型气治溶扑数)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="570" y="145" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="14" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="780" y="150" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="四合一复合气体探头&lt;br&gt;(机能维修诊断/危险气体监测)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="800" y="145" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="16" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="3D结构光相机&lt;br&gt;(高温度鑿控深度胞向定位)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="120" y="195" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="350" y="200" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="红外热像仪(±2℃精度)&amp;amp;热敏探头&lt;br&gt;(异雜热源/火灾温开多模类斯)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="370" y="195" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="20" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="550" y="200" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="四合一复合气体探头&amp;amp;局放传感列&lt;br&gt;(提取声效 FFT 转证/识剧眉揹噲响)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="570" y="195" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="22" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="780" y="200" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="工业级防风麦克风降列&lt;br&gt;(提取声效FFT转证/识剧眉播鸣响)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="800" y="195" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="自主移动与巡检任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="250" y="430" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="闭环控制执行&lt;br&gt;(同服/视觉)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="450" y="430" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="高分辨率同腥电机编码器&lt;br&gt;(本体底底/机械管关节惟度和速度闭环)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="650" y="430" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="27" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="660" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="移动闭环控制&lt;br&gt;(底座/机械管动作)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="430" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="专用作业任务&lt;br&gt;(蠔检/润滑/操作)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="250" y="530" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="闭环反馈控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="450" y="530" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="未端六能力/力短传感器(F/T传感器)&lt;br&gt;(物理阻访/反作用扭短预浆反绩)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="650" y="510" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="32" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="660" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="激光到位检测光电开关&lt;br&gt;(通用工具供接精前对齐定位)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="650" y="580" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="34" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="660" y="590" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="雷尔效应连接接锁繁状态传感器&lt;br&gt;(确认工具供换盘机械联合反馈)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="650" y="650" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="36" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="660" y="660" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="异常诊断与&lt;br&gt;报警模式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#EF5350;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="250" y="730" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="38" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="260" y="740" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="动作执行机构" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#EF5350;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="450" y="740" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="多源特征融合与智能制定" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#FFA726;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="650" y="740" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="高强度爆格预浆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#FFA726;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="510" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="工具快换" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#FFA726;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="580" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="自主润滑" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#FFA726;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="650" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="44" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
+          <mxGeometry x="890" y="660" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="异常热源定位" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#FFA726;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="730" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="火灾报警交叉验证" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#FFA726;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="770" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="危险气体/绝缘报警" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#FFA726;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="810" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#333333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="130" as="sourcePoint" />
+            <mxPoint x="550" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#66BB6A;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" target="24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="380" as="sourcePoint" />
+            <mxPoint x="250" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="380" />
+              <mxPoint x="350" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#66BB6A;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" target="25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="400" />
+              <mxPoint x="525" y="400" />
+              <mxPoint x="525" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#66BB6A;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="25" target="26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="450" as="sourcePoint" />
+            <mxPoint x="650" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#66BB6A;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="26" target="28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="455" as="sourcePoint" />
+            <mxPoint x="880" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#42A5F5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7" target="29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="550" as="sourcePoint" />
+            <mxPoint x="250" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#EF5350;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7" target="37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="750" as="sourcePoint" />
+            <mxPoint x="250" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#42A5F5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="29" target="30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="550" as="sourcePoint" />
+            <mxPoint x="450" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="56" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#42A5F5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="30" target="31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="550" as="sourcePoint" />
+            <mxPoint x="650" y="535" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="625" y="550" />
+              <mxPoint x="625" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="57" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#42A5F5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="30" target="33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="550" as="sourcePoint" />
+            <mxPoint x="650" y="605" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="625" y="550" />
+              <mxPoint x="625" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#42A5F5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="30" target="35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="550" as="sourcePoint" />
+            <mxPoint x="650" y="675" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="625" y="550" />
+              <mxPoint x="625" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="59" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#EF5350;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="37" target="39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="755" as="sourcePoint" />
+            <mxPoint x="450" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#333333;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="39" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="780" as="sourcePoint" />
+            <mxPoint x="550" y="900" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="61" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#FFA726;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="40" target="45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="760" as="sourcePoint" />
+            <mxPoint x="880" y="745" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="865" y="760" />
+              <mxPoint x="865" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#FFA726;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="40" target="46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="760" as="sourcePoint" />
+            <mxPoint x="880" y="785" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="865" y="760" />
+              <mxPoint x="865" y="785" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="63" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#FFA726;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="40" target="47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="760" as="sourcePoint" />
+            <mxPoint x="880" y="825" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="865" y="760" />
+              <mxPoint x="865" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#FFA726;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="31" target="41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="535" as="sourcePoint" />
+            <mxPoint x="880" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="65" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#FFA726;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="33" target="42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="605" as="sourcePoint" />
+            <mxPoint x="880" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="66" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#FFA726;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="35" target="43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="675" as="sourcePoint" />
+            <mxPoint x="880" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#FFA726;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="41" target="40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="530" as="sourcePoint" />
+            <mxPoint x="850" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="865" y="530" />
+              <mxPoint x="865" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#FFA726;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="42" target="40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="600" as="sourcePoint" />
+            <mxPoint x="850" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="865" y="600" />
+              <mxPoint x="865" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#FFA726;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="43" target="40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="670" as="sourcePoint" />
+            <mxPoint x="850" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="865" y="670" />
+              <mxPoint x="865" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="70" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#333333;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="40" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="780" as="sourcePoint" />
+            <mxPoint x="550" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
