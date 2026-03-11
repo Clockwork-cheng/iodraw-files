@@ -84,9 +84,6 @@
         <mxCell id="25" value="指令控制信息&lt;br&gt;&lt;div&gt;任务发布信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="450" y="430" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6Pe61KdvbRuFV-c6W7HB-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="26" value="后台系统信息处理&lt;div&gt;开发板信息传输&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="650" y="430" width="200" height="50" as="geometry" />
         </mxCell>
