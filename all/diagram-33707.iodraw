@@ -216,7 +216,7 @@
         <mxCell id="37" value="异常诊断与&lt;br&gt;报警模式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="250" y="745" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="45" value="异常热源定位" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;gradientColor=#ea6b66;" parent="1" vertex="1">
+        <mxCell id="45" value="温升判断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="880" y="715" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="46" value="火灾报警交叉验证" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;gradientColor=#ea6b66;" parent="1" vertex="1">
