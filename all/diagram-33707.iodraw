@@ -82,7 +82,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="120" y="380" />
-              <mxPoint x="120" y="550" />
+              <mxPoint x="120" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -90,7 +90,7 @@
           <mxGeometry x="250" y="580" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="30" value="闭环反馈控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="450" y="530" width="150" height="40" as="geometry" />
+          <mxGeometry x="450" y="580" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="31" value="未端六能力/力短传感器(F/T传感器)&lt;br&gt;(物理阻访/反作用扭短预浆反绩)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#42A5F5;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="650" y="510" width="200" height="50" as="geometry" />
