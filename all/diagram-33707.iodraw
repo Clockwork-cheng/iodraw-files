@@ -240,12 +240,6 @@
             <mxPoint x="880" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="65" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#FFA726;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="33" target="42" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="850" y="605" as="sourcePoint" />
-            <mxPoint x="880" y="600" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="66" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#FFA726;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="35" target="43" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="675" as="sourcePoint" />
