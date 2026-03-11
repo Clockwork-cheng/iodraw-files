@@ -34,7 +34,7 @@
           <mxGeometry x="400" y="360" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5" value="控制核心&lt;br&gt;(核心处理器&amp;amp;运动控制器)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;fontColor=#333333;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="400" y="900" width="300" height="60" as="geometry" />
+          <mxGeometry x="405" y="900" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
           <mxGeometry x="410" y="910" width="40" height="40" as="geometry" />
