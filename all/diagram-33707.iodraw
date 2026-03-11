@@ -78,11 +78,11 @@
         <mxCell id="28" value="移动闭环控制&lt;br&gt;(底座/机械管动作)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#66BB6A;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="880" y="430" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_4pv8P2xKgIBkmBELiVQ-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="29" target="4">
+        <mxCell id="_4pv8P2xKgIBkmBELiVQ-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="120" y="550" />
               <mxPoint x="120" y="380" />
+              <mxPoint x="120" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
