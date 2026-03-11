@@ -20,6 +20,14 @@
           <mxGeometry x="160" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OUkIhjsfwxvItVffRRF1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OUkIhjsfwxvItVffRRF1-12" source="OUkIhjsfwxvItVffRRF1-6" target="OUkIhjsfwxvItVffRRF1-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="90" />
+              <mxPoint x="220" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUkIhjsfwxvItVffRRF1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OUkIhjsfwxvItVffRRF1-12" source="OUkIhjsfwxvItVffRRF1-6" target="OUkIhjsfwxvItVffRRF1-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OUkIhjsfwxvItVffRRF1-6" value="STM32底层驱动板" style="whiteSpace=wrap;html=1;" vertex="1" parent="OUkIhjsfwxvItVffRRF1-12">
