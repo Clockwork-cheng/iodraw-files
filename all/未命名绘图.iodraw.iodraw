@@ -5,7 +5,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="OUkIhjsfwxvItVffRRF1-12" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="830" width="590" height="190" as="geometry" />
+          <mxGeometry x="170" y="830" width="590" height="190" as="geometry" />
         </mxCell>
         <mxCell id="OUkIhjsfwxvItVffRRF1-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OUkIhjsfwxvItVffRRF1-12">
           <mxGeometry y="130" width="120" height="60" as="geometry" />
@@ -36,7 +36,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OUkIhjsfwxvItVffRRF1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OUkIhjsfwxvItVffRRF1-12" source="OUkIhjsfwxvItVffRRF1-6" target="OUkIhjsfwxvItVffRRF1-1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="90" />
+              <mxPoint x="530" y="90" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OUkIhjsfwxvItVffRRF1-6" value="STM32底层驱动板" style="whiteSpace=wrap;html=1;" vertex="1" parent="OUkIhjsfwxvItVffRRF1-12">
           <mxGeometry x="110" width="120" height="60" as="geometry" />
