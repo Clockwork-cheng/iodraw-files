@@ -7,7 +7,7 @@
         <mxCell id="OUkIhjsfwxvItVffRRF1-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="119" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OUkIhjsfwxvItVffRRF1-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OUkIhjsfwxvItVffRRF1-1" value="超声传感器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="589" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OUkIhjsfwxvItVffRRF1-2" value="里程计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
