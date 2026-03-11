@@ -100,7 +100,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="30" value="闭环反馈控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;gradientColor=#7ea6e0;" parent="1" vertex="1">
+        <mxCell id="30" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;闭环反馈控制&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;gradientColor=#7ea6e0;" parent="1" vertex="1">
           <mxGeometry x="440" y="580" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="36" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
@@ -207,10 +207,10 @@
         <mxCell id="35" value="功能执行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=12;" parent="6Pe61KdvbRuFV-c6W7HB-82" vertex="1">
           <mxGeometry x="9.09090909090909" y="126" width="181.8181818181818" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="24" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;自主移动与巡检任务&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;gradientColor=#97d077;" parent="1" vertex="1">
+        <mxCell id="24" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;自主移动与巡检任务&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;gradientColor=#97d077;" parent="1" vertex="1">
           <mxGeometry x="250" y="430" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="29" value="专用作业任务&lt;br&gt;(螺栓/润滑/操作)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;gradientColor=#7ea6e0;" parent="1" vertex="1">
+        <mxCell id="29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;专用作业任务&lt;br&gt;(螺栓/润滑/操作)&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;gradientColor=#7ea6e0;" parent="1" vertex="1">
           <mxGeometry x="250" y="580" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="37" value="异常诊断与&lt;br&gt;报警模式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;gradientColor=#ea6b66;" parent="1" vertex="1">
