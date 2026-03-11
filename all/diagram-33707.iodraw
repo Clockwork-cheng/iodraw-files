@@ -154,14 +154,11 @@
         <mxCell id="41" value="螺栓预紧" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#FFA726;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="880" y="510" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6Pe61KdvbRuFV-c6W7HB-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="42" target="43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="42" value="工具快换" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#FFA726;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="880" y="580" width="150" height="40" as="geometry" />
+          <mxGeometry x="880" y="655" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="43" value="自主润滑" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#FFA726;fontColor=#333333;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="880" y="650" width="150" height="40" as="geometry" />
+          <mxGeometry x="880" y="585" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="44" style="shape=image;imageAspect=0;imageAlign=center;imageVerticalAlign=middle;fillColor=none;strokeColor=none;image=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=" parent="1" vertex="1">
           <mxGeometry x="890" y="660" width="30" height="30" as="geometry" />
