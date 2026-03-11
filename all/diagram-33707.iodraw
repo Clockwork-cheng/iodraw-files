@@ -216,14 +216,14 @@
         <mxCell id="37" value="异常诊断与&lt;br&gt;报警模式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="250" y="745" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="45" value="温升判断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;gradientColor=#ea6b66;" parent="1" vertex="1">
+        <mxCell id="45" value="红外温升判断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="880" y="715" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="46" value="烟雾判断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="880" y="755" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="47" value="危险气体/绝缘报警" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;gradientColor=#ea6b66;" parent="1" vertex="1">
-          <mxGeometry x="880" y="795" width="150" height="30" as="geometry" />
+          <mxGeometry x="880" y="790" width="150" height="35" as="geometry" />
         </mxCell>
         <mxCell id="6Pe61KdvbRuFV-c6W7HB-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.002;exitY=0.475;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" source="6Pe61KdvbRuFV-c6W7HB-69" target="41" edge="1">
           <mxGeometry relative="1" as="geometry" />
