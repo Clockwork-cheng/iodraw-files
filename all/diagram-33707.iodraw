@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="d1e2f3g4-h5i6-7j8k-9l0m-1n2o3p4q5r6s">
-    <mxGraphModel dx="1436" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2035" dy="1372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,9 +29,6 @@
         </mxCell>
         <mxCell id="_4pv8P2xKgIBkmBELiVQ-83" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;gradientColor=none;gradientDirection=north;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="40" y="70" width="1030" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="2" value="风电机舱挂轨巡检机器人感知与控制闭环流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="100" y="20" width="900" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;环境与状态感知 (多传感器输入)&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;dashed=1;fillColor=#b1ddf0;strokeColor=#10739e;gradientColor=#9ec1e5;gradientDirection=north;" parent="1" vertex="1">
           <mxGeometry x="40" y="70" width="1030" height="40" as="geometry" />
