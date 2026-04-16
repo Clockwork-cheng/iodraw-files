@@ -7,7 +7,7 @@
         <mxCell id="title" value="图 2-2  机器人模块功能关系框图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="350" y="20" width="500" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="frame" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#90A4AE;dashed=1;dashPattern=6 4;strokeWidth=1" parent="1" vertex="1">
+        <mxCell id="frame" value="`" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#90A4AE;dashed=1;dashPattern=6 4;strokeWidth=1" parent="1" vertex="1">
           <mxGeometry x="40" y="70" width="1120" height="800" as="geometry" />
         </mxCell>
         <mxCell id="rail" value="&lt;b&gt;轨道系统&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;2040铝型材 · 机舱顶部承重结构安装&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B0BEC5;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=20" parent="1" vertex="1">
@@ -59,10 +59,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="legend_title" value="&lt;b&gt;图例&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11" parent="1" vertex="1">
-          <mxGeometry x="70" y="100" width="80" height="20" as="geometry" />
+          <mxGeometry x="70" y="120" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="legend_solid" value="— 实线：主功能传递" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="70" y="125" width="200" height="20" as="geometry" />
+          <mxGeometry x="70" y="140" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="legend_dash" value="┄ 虚线：电力/信号/反馈" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10" parent="1" vertex="1">
           <mxGeometry x="70" y="160" width="200" height="20" as="geometry" />
