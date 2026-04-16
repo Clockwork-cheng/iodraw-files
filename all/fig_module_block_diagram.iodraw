@@ -1,0 +1,73 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="图2-2 模块功能关系框图" id="module-block-diagram">
+    <mxGraphModel dx="1221" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="图 2-2  机器人模块功能关系框图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="350" y="20" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="frame" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#90A4AE;dashed=1;dashPattern=6 4;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1120" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="rail" value="&lt;b&gt;轨道系统&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;2040铝型材 · 机舱顶部承重结构安装&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B0BEC5;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=20" parent="1" vertex="1">
+          <mxGeometry x="400" y="100" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="walk" value="&lt;b&gt;① 行走模块&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;底盘框架 · 摩擦驱动轮 · 导向轮组 · 编码器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90CAF9;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=20" parent="1" vertex="1">
+          <mxGeometry x="350" y="240" width="500" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl" value="&lt;b&gt;控制箱&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;主控制器 · 电源 · CAN总线&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#37474F;strokeWidth=1.5;fontSize=12;verticalAlign=middle;align=center;arcSize=20" parent="1" vertex="1">
+          <mxGeometry x="920" y="245" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yaw" value="&lt;b&gt;② 偏航模块&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;中空旋转平台 · 导电滑环 · ±120°&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A5D6A7;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=20" parent="1" vertex="1">
+          <mxGeometry x="350" y="390" width="500" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lift" value="&lt;b&gt;③ 升降模块&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;大臂 L1 · 小臂 L2 · 肩/肘关节电机 · 平行四边形连杆&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC80;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=20" parent="1" vertex="1">
+          <mxGeometry x="350" y="540" width="500" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oil" value="&lt;b&gt;④ 注油执行模块&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;储脂缸 · 电动推杆 · 浮动对接头&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EF9A9A;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=20" parent="1" vertex="1">
+          <mxGeometry x="150" y="720" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vision" value="&lt;b&gt;⑤ 视觉感知模块&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;RGB-D相机 · 辅助照明 · 视觉伺服&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CE93D8;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=20" parent="1" vertex="1">
+          <mxGeometry x="650" y="720" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="悬挂支撑" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5;fontSize=10;fontColor=#616161" parent="1" source="rail" target="walk" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="位移输出" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5;fontSize=10;fontColor=#616161" parent="1" source="walk" target="yaw" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="偏航角输出" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5;fontSize=10;fontColor=#616161" parent="1" source="yaw" target="lift" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="空间到达" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5;fontSize=10;fontColor=#616161" parent="1" source="lift" target="oil" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="末端位姿" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5;fontSize=10;fontColor=#616161" parent="1" source="lift" target="vision" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" value="位置修正" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#7B1FA2;strokeWidth=1.5;fontSize=10;fontColor=#7B1FA2;dashed=1" parent="1" source="vision" target="oil" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" value="驱动指令" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.2;fontSize=10;fontColor=#616161" parent="1" source="ctrl" target="walk" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.0;dashed=1" parent="1" source="ctrl" target="yaw" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" value="电力/信号&#xa;(经导电滑环)" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.0;dashed=1;fontSize=10;fontColor=#616161;fontStyle=2" parent="1" source="ctrl" target="lift" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_title" value="&lt;b&gt;图例&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="70" y="100" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_solid" value="— 实线：主功能传递" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10" parent="1" vertex="1">
+          <mxGeometry x="70" y="125" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_dash" value="┄ 虚线：电力/信号/反馈" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10" parent="1" vertex="1">
+          <mxGeometry x="70" y="145" width="200" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
