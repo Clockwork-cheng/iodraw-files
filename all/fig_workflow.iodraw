@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-04-16T00:00:00.000Z" agent="manual" version="22.0.0" type="device">
+  <diagram name="图2-3 整机工作流程图" id="workflow-diagram">
+    <mxGraphModel dx="900" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 标题 -->
+        <mxCell id="title" value="图 2-3  整机工作流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- 开始 -->
+        <mxCell id="start" value="&lt;b&gt;开  始&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B0BEC5;strokeColor=#37474F;strokeWidth=2;fontSize=14;verticalAlign=middle;align=center" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- ① 待机初始化 -->
+        <mxCell id="init" value="&lt;b&gt;① 待机初始化&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;折叠臂收纳 · 偏航归零 · 接收任务指令&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90CAF9;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=15" vertex="1" parent="1">
+          <mxGeometry x="200" y="190" width="400" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- ② 行走定位 -->
+        <mxCell id="walk" value="&lt;b&gt;② 行走定位&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;沿轨道移至目标注油点水平投影位置&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90CAF9;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=15" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="400" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- ③ 偏航调整 -->
+        <mxCell id="yaw" value="&lt;b&gt;③ 偏航调整&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;旋转基座对准注油点方位角&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90CAF9;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=15" vertex="1" parent="1">
+          <mxGeometry x="200" y="450" width="400" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- ④ 折叠臂展开 + 视觉精对接 -->
+        <mxCell id="arm" value="&lt;b&gt;④ 折叠臂展开 + 视觉精对接&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;肩/肘关节协同驱动 · 视觉伺服引导对齐&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90CAF9;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=15" vertex="1" parent="1">
+          <mxGeometry x="200" y="580" width="400" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- ⑤ 定量注油 -->
+        <mxCell id="oil" value="&lt;b&gt;⑤ 定量注油&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;电动推杆按预设行程推进 · 对接头脱离&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90CAF9;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=15" vertex="1" parent="1">
+          <mxGeometry x="200" y="710" width="400" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- ⑥ 回收 -->
+        <mxCell id="retract" value="&lt;b&gt;⑥ 回收&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;折叠臂收纳 · 偏航归零&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90CAF9;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=15" vertex="1" parent="1">
+          <mxGeometry x="200" y="840" width="400" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 判断菱形：是否全部完成 -->
+        <mxCell id="decision" value="&lt;b&gt;全部注油点&lt;br&gt;是否完成？&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#37474F;strokeWidth=1.5;fontSize=12;verticalAlign=middle;align=center" vertex="1" parent="1">
+          <mxGeometry x="280" y="970" width="240" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- 返回待机位 -->
+        <mxCell id="return" value="&lt;b&gt;返回待机位&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;上报作业结果&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90CAF9;strokeColor=#37474F;strokeWidth=1.5;fontSize=13;verticalAlign=middle;align=center;arcSize=15" vertex="1" parent="1">
+          <mxGeometry x="200" y="1130" width="400" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- 结束 -->
+        <mxCell id="end" value="&lt;b&gt;结  束&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B0BEC5;strokeColor=#37474F;strokeWidth=2;fontSize=14;verticalAlign=middle;align=center" vertex="1" parent="1">
+          <mxGeometry x="300" y="1240" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 连线：开始 → 初始化 -->
+        <mxCell id="e1" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5" edge="1" parent="1" source="start" target="init">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 连线：初始化 → 行走 -->
+        <mxCell id="e2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5" edge="1" parent="1" source="init" target="walk">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 连线：行走 → 偏航 -->
+        <mxCell id="e3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5" edge="1" parent="1" source="walk" target="yaw">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 连线：偏航 → 展开对接 -->
+        <mxCell id="e4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5" edge="1" parent="1" source="yaw" target="arm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 连线：展开对接 → 注油 -->
+        <mxCell id="e5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5" edge="1" parent="1" source="arm" target="oil">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 连线：注油 → 回收 -->
+        <mxCell id="e6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5" edge="1" parent="1" source="oil" target="retract">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 连线：回收 → 判断 -->
+        <mxCell id="e7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5" edge="1" parent="1" source="retract" target="decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 连线：判断 → 返回（是） -->
+        <mxCell id="e8" value="是" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5;fontSize=12;fontColor=#37474F;fontStyle=1" edge="1" parent="1" source="decision" target="return">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 连线：返回 → 结束 -->
+        <mxCell id="e9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#37474F;strokeWidth=1.5" edge="1" parent="1" source="return" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 回路：判断(否) → 行走定位 -->
+        <mxCell id="e_loop" value="否&#10;移至下一注油点" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#D32F2F;strokeWidth=1.8;fontSize=12;fontColor=#D32F2F;fontStyle=1;edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=auto;orthogonalLoop=1" edge="1" parent="1" source="decision" target="walk">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="1025" />
+              <mxPoint x="700" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
