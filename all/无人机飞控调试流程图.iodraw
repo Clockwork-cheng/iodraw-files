@@ -1,0 +1,343 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="pixhawk-debug-flow" name="无人机飞控调试详细流程">
+    <mxGraphModel dx="4140" dy="1496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="2700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="无人机飞控调试详细流程图&#xa;（基于 Pixhawk 6C / PX4 + MAVROS）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="10" width="880" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="start" value="开始：飞控调试任务&#xa;（WTR-100 巡检无人机）" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1" value="Phase 1&#xa;选型与需求分析" style="swimlane;fontSize=14;fontStyle=1;startSize=40;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="180" width="1840" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_1" value="需求分析&#xa;（载荷/续航/巡检路径）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="phase1" vertex="1">
+          <mxGeometry x="30" y="80" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_2" value="飞控选型&#xa;Pixhawk 6C (STM32H743)&#xa;H7/480MHz/1MB RAM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="phase1" vertex="1">
+          <mxGeometry x="240" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_3" value="传感器外设选型&#xa;GPS: u-blox M9N&#xa;罗盘: IST8310&#xa;测距: TFmini-S" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="phase1" vertex="1">
+          <mxGeometry x="470" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_4" value="通信与供电&#xa;数传: SiK V3 (TELEM1)&#xa;遥控: CRSF/S.Bus&#xa;电源模块: PM02D" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="phase1" vertex="1">
+          <mxGeometry x="700" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_5" value="伴飞计算机&#xa;Jetson Orin NX&#xa;（承载 Livox-mid360 + 相机&#xa; + Lightning-LM SLAM）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="phase1" vertex="1">
+          <mxGeometry x="930" y="80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_6" value="机架与动力&#xa;450mm 四旋翼&#xa;2216 电机 + 30A 电调&#xa;4S 5200mAh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="phase1" vertex="1">
+          <mxGeometry x="1170" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_7" value="固件与地面站&#xa;固件: PX4 v1.14&#xa;地面站: QGC&#xa;（BSD 许可, ROS2 原生）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="phase1" vertex="1">
+          <mxGeometry x="1400" y="80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_8" value="输出：BOM + 选型报告" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D6B656;fontSize=11;fontStyle=2;" parent="phase1" vertex="1">
+          <mxGeometry x="1640" y="85" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2" value="Phase 2&#xa;开发环境搭建" style="swimlane;fontSize=14;fontStyle=1;startSize=40;html=1;fillColor=#D5E8D4;strokeColor=#82B366;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="380" width="1840" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_1" value="安装 QGroundControl&#xa;（Windows/Linux）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" parent="phase2" vertex="1">
+          <mxGeometry x="30" y="80" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_2" value="PX4 源码 + 工具链&#xa;git clone PX4-Autopilot&#xa;ubuntu.sh 脚本配置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" parent="phase2" vertex="1">
+          <mxGeometry x="240" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_3" value="SITL 仿真环境&#xa;Gazebo Garden / jMAVSim&#xa;make px4_sitl gz_x500" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" parent="phase2" vertex="1">
+          <mxGeometry x="470" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_4" value="ROS2 + MAVROS&#xa;Humble / Foxy&#xa;MAVLink ↔ ROS 桥接" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" parent="phase2" vertex="1">
+          <mxGeometry x="700" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_5" value="日志分析工具&#xa;PlotJuggler&#xa;PX4 FlightReview" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" parent="phase2" vertex="1">
+          <mxGeometry x="930" y="80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_6" value="版本管理&#xa;PX4 参数 git 管控&#xa;.params 备份策略" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" parent="phase2" vertex="1">
+          <mxGeometry x="1170" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_7" value="DDS 微桥&#xa;XRCE-DDS Agent&#xa;(PX4 原生 ROS2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" parent="phase2" vertex="1">
+          <mxGeometry x="1400" y="80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_8" value="输出：环境自检通过" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82B366;fontSize=11;fontStyle=2;" parent="phase2" vertex="1">
+          <mxGeometry x="1640" y="85" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3" value="Phase 3&#xa;硬件组装与接线" style="swimlane;fontSize=14;fontStyle=1;startSize=40;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="580" width="1840" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_1" value="机架装配&#xa;电机/电调/桨&#xa;重心/振动隔离" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase3" vertex="1">
+          <mxGeometry x="30" y="80" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_2" value="飞控安装&#xa;箭头朝前&#xa;减振垫/避磁布置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase3" vertex="1">
+          <mxGeometry x="240" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_3" value="电源接线&#xa;PM02D → POWER1&#xa;BAT1_V_DIV / A_PER_V" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase3" vertex="1">
+          <mxGeometry x="470" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_4" value="GPS + 罗盘&#xa;GPS1 (UART+I2C)&#xa;远离电源线布置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase3" vertex="1">
+          <mxGeometry x="700" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_5" value="遥控 + 数传&#xa;RC IN (S.Bus)&#xa;TELEM1 → 数传电台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase3" vertex="1">
+          <mxGeometry x="930" y="80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_6" value="电机信号&#xa;MAIN OUT × 4&#xa;电调校准准备" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase3" vertex="1">
+          <mxGeometry x="1170" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_7" value="伴飞计算机互联&#xa;TELEM2 ↔ Jetson UART&#xa;MAV_1_CONFIG=TELEM2&#xa;921600 bps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase3" vertex="1">
+          <mxGeometry x="1400" y="80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_8" value="输出：通电自检 LED 正常" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6C8EBF;fontSize=11;fontStyle=2;" parent="phase3" vertex="1">
+          <mxGeometry x="1640" y="85" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4" value="Phase 4&#xa;固件烧写 &amp; 基础配置" style="swimlane;fontSize=14;fontStyle=1;startSize=40;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="780" width="1840" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_1" value="QGC 连接 USB-C&#xa;烧写 PX4 固件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=12;" parent="phase4" vertex="1">
+          <mxGeometry x="30" y="80" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_2" value="机架选择 (Airframe)&#xa;Generic Quadcopter X&#xa;SYS_AUTOSTART=4001" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=12;" parent="phase4" vertex="1">
+          <mxGeometry x="240" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_3" value="传感器校准&#xa;加计/陀螺/磁力计&#xa;水平/RC/电调" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=12;" parent="phase4" vertex="1">
+          <mxGeometry x="470" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_4" value="电机方向测试&#xa;Actuators 页面&#xa;电机序号/转向" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=12;" parent="phase4" vertex="1">
+          <mxGeometry x="700" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_5" value="失控保护&#xa;Failsafe: RTL&#xa;电压/信号/地理围栏" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=12;" parent="phase4" vertex="1">
+          <mxGeometry x="930" y="80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_6" value="飞行模式映射&#xa;Manual/Stabilized&#xa;Altitude/Position/Offboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=12;" parent="phase4" vertex="1">
+          <mxGeometry x="1170" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_7" value="决策：基础自检通过？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;" parent="phase4" vertex="1">
+          <mxGeometry x="1400" y="70" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_8" value="输出：Airframe 配置锁版" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D79B00;fontSize=11;fontStyle=2;" parent="phase4" vertex="1">
+          <mxGeometry x="1640" y="85" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5" value="Phase 5&#xa;SITL 仿真验证" style="swimlane;fontSize=14;fontStyle=1;startSize=40;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="980" width="1840" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_1" value="Gazebo 启动&#xa;风机舱仿真场景&#xa;（含风扰动模型）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase5" vertex="1">
+          <mxGeometry x="30" y="80" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_2" value="MAVLink 连通性&#xa;QGC 接入 UDP:14550&#xa;MAVROS 接入 14540" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase5" vertex="1">
+          <mxGeometry x="240" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_3" value="基础飞行模式&#xa;Takeoff / Loiter / RTL&#xa;Offboard 切换" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase5" vertex="1">
+          <mxGeometry x="470" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_4" value="Offboard 接口测试&#xa;/setpoint_position/local&#xa;/setpoint_velocity/cmd_vel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase5" vertex="1">
+          <mxGeometry x="700" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_5" value="联调规划算法&#xa;全局/局部规划仿真&#xa;（对接规划模块）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase5" vertex="1">
+          <mxGeometry x="930" y="80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_6" value="SLAM 位姿注入&#xa;/mavros/vision_pose/pose&#xa;EKF2_AID_MASK 外部视觉" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase5" vertex="1">
+          <mxGeometry x="1170" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_7" value="极限工况脚本&#xa;断 GPS / 断 RC&#xa;强风 / 电压跌落" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase5" vertex="1">
+          <mxGeometry x="1400" y="80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_8" value="输出：SITL 测试报告" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9673A6;fontSize=11;fontStyle=2;" parent="phase5" vertex="1">
+          <mxGeometry x="1640" y="85" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6" value="Phase 6&#xa;PID 调参（双闭环）" style="swimlane;fontSize=14;fontStyle=1;startSize=40;html=1;fillColor=#F8CECC;strokeColor=#B85450;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1180" width="1840" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_1" value="系留桌面测试&#xa;不装桨 → 装桨&#xa;观察电机响应" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=12;" parent="phase6" vertex="1">
+          <mxGeometry x="30" y="90" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_2" value="角速率环&#xa;MC_ROLLRATE_P/I/D&#xa;MC_PITCHRATE_*" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=12;" parent="phase6" vertex="1">
+          <mxGeometry x="240" y="90" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_3" value="姿态环&#xa;MC_ROLL_P / PITCH_P&#xa;MC_YAW_P" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=12;" parent="phase6" vertex="1">
+          <mxGeometry x="470" y="90" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_4" value="速度环&#xa;MPC_XY_VEL_P/I/D&#xa;MPC_Z_VEL_*" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=12;" parent="phase6" vertex="1">
+          <mxGeometry x="700" y="90" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_5" value="位置环&#xa;MPC_XY_P / MPC_Z_P&#xa;（稳定→灵敏折中）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=12;" parent="phase6" vertex="1">
+          <mxGeometry x="930" y="90" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_6" value="QGC AutoTune&#xa;悬停后触发&#xa;记录推荐值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=12;" parent="phase6" vertex="1">
+          <mxGeometry x="1170" y="90" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_7" value="决策：震荡/超调?&#xa;（≤ 5°/s 残差）" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;" parent="phase6" vertex="1">
+          <mxGeometry x="1400" y="80" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_8" value="输出：PID 基线参数集" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B85450;fontSize=11;fontStyle=2;" parent="phase6" vertex="1">
+          <mxGeometry x="1640" y="95" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase7" value="Phase 7&#xa;实机飞行测试" style="swimlane;fontSize=14;fontStyle=1;startSize=40;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1400" width="1840" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_1" value="首飞前检查&#xa;Preflight Check&#xa;GPS 锁星 ≥ 10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase7" vertex="1">
+          <mxGeometry x="30" y="80" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_2" value="系留低飞&#xa;Stabilized 模式&#xa;20cm 离地悬停" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase7" vertex="1">
+          <mxGeometry x="240" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_3" value="定高测试&#xa;Altitude 模式&#xa;气压计/雷达融合" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase7" vertex="1">
+          <mxGeometry x="470" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_4" value="定点悬停&#xa;Position 模式&#xa;抗风观察" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase7" vertex="1">
+          <mxGeometry x="700" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_5" value="自主航线&#xa;Mission 模式&#xa;QGC 航点规划" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase7" vertex="1">
+          <mxGeometry x="930" y="80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_6" value="失控保护触发&#xa;断 RC → RTL&#xa;电池低 → Land" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase7" vertex="1">
+          <mxGeometry x="1170" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_7" value="载荷联飞&#xa;Livox+Camera 通电&#xa;记录干扰/振动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" parent="phase7" vertex="1">
+          <mxGeometry x="1400" y="80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_8" value="输出：飞行验收记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6C8EBF;fontSize=11;fontStyle=2;" parent="phase7" vertex="1">
+          <mxGeometry x="1640" y="85" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase8" value="Phase 8&#xa;系统集成（对接 SLAM + 规划）" style="swimlane;fontSize=14;fontStyle=1;startSize=40;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1600" width="1840" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_1" value="MAVROS 节点启动&#xa;mavros_node&#xa;fcu_url:=/dev/ttyTHS1:921600" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase8" vertex="1">
+          <mxGeometry x="30" y="90" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_2" value="接收定位模块位姿&#xa;订阅 /lightning_lm/pose&#xa;→ /mavros/vision_pose/pose" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase8" vertex="1">
+          <mxGeometry x="240" y="90" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_3" value="EKF2 外部视觉融合&#xa;EKF2_AID_MASK=24&#xa;EKF2_HGT_MODE=Vision" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase8" vertex="1">
+          <mxGeometry x="470" y="90" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_4" value="接收规划模块指令&#xa;订阅 /planner/cmd_pos&#xa;→ /mavros/setpoint_position/local" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase8" vertex="1">
+          <mxGeometry x="700" y="90" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_5" value="Offboard 模式激活&#xa;set_mode + arming&#xa;2Hz 心跳保持" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase8" vertex="1">
+          <mxGeometry x="930" y="90" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_6" value="局部感知避障&#xa;局部规划 → 速度指令&#xa;/setpoint_velocity/cmd_vel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase8" vertex="1">
+          <mxGeometry x="1170" y="90" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_7" value="全流程闭环联调&#xa;SLAM + 规划 + 飞控&#xa;小范围场地联合测试" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" parent="phase8" vertex="1">
+          <mxGeometry x="1400" y="90" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_8" value="输出：集成联飞视频" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9673A6;fontSize=11;fontStyle=2;" parent="phase8" vertex="1">
+          <mxGeometry x="1640" y="95" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase9" value="Phase 9&#xa;日志分析与迭代" style="swimlane;fontSize=14;fontStyle=1;startSize=40;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1820" width="1840" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_1" value="导出 ULog&#xa;.ulg 文件&#xa;（每次飞行必存）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="phase9" vertex="1">
+          <mxGeometry x="30" y="80" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_2" value="FlightReview 在线分析&#xa;logs.px4.io&#xa;振动/姿态/位置误差" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="phase9" vertex="1">
+          <mxGeometry x="240" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_3" value="PlotJuggler 曲线&#xa;对比期望/实际&#xa;识别滞后/超调" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="phase9" vertex="1">
+          <mxGeometry x="470" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_4" value="异常排查&#xa;磁干扰/振动过大&#xa;GPS 丢星/时钟跳变" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="phase9" vertex="1">
+          <mxGeometry x="700" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_5" value="参数微调&#xa;陷波滤波&#xa;滤波截止频率" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="phase9" vertex="1">
+          <mxGeometry x="930" y="80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_6" value="决策：性能达标？&#xa;（悬停 &lt; ±15cm&#xa;巡检轨迹误差 &lt; 30cm）" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;" parent="phase9" vertex="1">
+          <mxGeometry x="1170" y="70" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_7" value="交付验收&#xa;版本冻结 + 参数备份&#xa;编写使用手册" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" parent="phase9" vertex="1">
+          <mxGeometry x="1420" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_8" value="输出：调试结题报告" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D6B656;fontSize=11;fontStyle=2;" parent="phase9" vertex="1">
+          <mxGeometry x="1640" y="85" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="end" value="结束：&#xa;飞控调试完成" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="2040" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="与总体框架对接关系&#xa;━━━━━━━━━━━━━━━━━━━━&#xa;◆ 本流程对应总架构中的&#xa;&#xa;    &#xa;&#xa;◆ Phase 8 中的数据流向：&#xa;&#xa;  • 定位模块 → /mavros/vision_pose&#xa;  • 规划模块 → /mavros/setpoint_position&#xa;  • 飞控 → /mavros/local_position/odom&#xa;&#xa;◆ 对接的地面/伴飞软件：&#xa;  QGC · MAVROS · XRCE-DDS Agent&#xa;&#xa;◆ 核心参数集：&#xa;  SYS_AUTOSTART · MC_*RATE_* · MPC_*&#xa;  EKF2_AID_MASK · COM_RC_LOSS_T&#xa;&#xa;◆ 关键输出物：&#xa;  BOM · Airframe · PID 基线&#xa;  SITL 报告 · 飞行日志 · 结题报告" style="text;html=1;strokeColor=#666666;fillColor=#FAFAFA;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=11;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="2040" width="460" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_box" value="Controller（无人机飞控）&#xa;— Simulation + HardLink 两侧" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9673A6;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="2110" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;strokeColor=#333333;" parent="1" source="start" target="phase1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" source="phase1" target="phase2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="360" as="sourcePoint" />
+            <mxPoint x="960" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" source="phase2" target="phase3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" source="phase3" target="phase4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" source="phase4" target="phase5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" source="phase5" target="phase6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" source="phase6" target="phase7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" source="phase7" target="phase8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" source="phase8" target="phase9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" source="phase9" target="end" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loop4" value="NO：回到传感器校准" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#B85450;dashed=1;fontSize=11;labelBackgroundColor=#FFFFFF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1830" y="870" as="sourcePoint" />
+            <mxPoint x="1880" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1880" y="870" />
+              <mxPoint x="1880" y="920" />
+              <mxPoint x="20" y="920" />
+              <mxPoint x="20" y="870" />
+              <mxPoint x="610" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="loop6" value="YES：微调&amp;重调参数" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#B85450;dashed=1;fontSize=11;labelBackgroundColor=#FFFFFF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1830" y="1280" as="sourcePoint" />
+            <mxPoint x="1880" y="1280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1880" y="1280" />
+              <mxPoint x="1880" y="1390" />
+              <mxPoint x="20" y="1390" />
+              <mxPoint x="20" y="1280" />
+              <mxPoint x="320" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="loop9" value="NO：参数迭代" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#B85450;dashed=1;fontSize=11;labelBackgroundColor=#FFFFFF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="1940" as="sourcePoint" />
+            <mxPoint x="1900" y="1940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1900" y="1940" />
+              <mxPoint x="1900" y="2020" />
+              <mxPoint y="2020" />
+              <mxPoint y="1280" />
+              <mxPoint x="130" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yes9" value="YES" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82B366;fontSize=11;labelBackgroundColor=#FFFFFF;" parent="1" source="p9_6" target="p9_7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
