@@ -259,12 +259,7 @@
         <mxCell id="88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="8" target="82" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="89" value="USB2.0" style="edgeLabel;html=1;fontSize=9;fontColor=#333333;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="88" vertex="1" connectable="0">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vt0vcgQ7bssQpRz-3Dfz-118" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="88">
+        <mxCell id="vt0vcgQ7bssQpRz-3Dfz-118" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 9px; text-align: left;&quot;&gt;USB2.0&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="88">
           <mxGeometry x="0.6821" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -272,8 +267,8 @@
         <mxCell id="90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="8" target="83" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="91" value="UART" style="edgeLabel;html=1;fontSize=9;fontColor=#333333;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="90" vertex="1" connectable="0">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="vt0vcgQ7bssQpRz-3Dfz-119" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 9px; text-align: left;&quot;&gt;UART&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="90">
+          <mxGeometry x="0.4427" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
