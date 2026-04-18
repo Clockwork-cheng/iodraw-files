@@ -235,7 +235,7 @@
         </mxCell>
         <mxCell id="vt0vcgQ7bssQpRz-3Dfz-114" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 9px; text-align: left;&quot;&gt;模拟/I2C&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="84">
           <mxGeometry x="0.3326" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="8" target="81" edge="1">
@@ -264,7 +264,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vt0vcgQ7bssQpRz-3Dfz-118" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 9px; text-align: left;&quot;&gt;USB2.0&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="88">
+        <mxCell id="vt0vcgQ7bssQpRz-3Dfz-118" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 9px; text-align: left;&quot;&gt;USB2.0&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="88">
           <mxGeometry x="0.6821" y="2" relative="1" as="geometry">
             <mxPoint x="-2" y="-4" as="offset" />
           </mxGeometry>
@@ -274,7 +274,7 @@
         </mxCell>
         <mxCell id="vt0vcgQ7bssQpRz-3Dfz-119" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 9px; text-align: left;&quot;&gt;UART&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="90">
           <mxGeometry x="0.4427" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="34" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="92" value="电源+电池监测" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#e1d5e7;fontColor=#333333;strokeColor=#9673a6;strokeWidth=1;" parent="1" vertex="1">
