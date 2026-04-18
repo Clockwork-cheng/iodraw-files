@@ -49,8 +49,11 @@
         <mxCell id="e_g1_t1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#533483;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="g1" target="t1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vUGpwQqCq0oGkAYfVM1J-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t1p" target="t1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="t1p" value="UART" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="375" width="60" height="25" as="geometry" />
+          <mxGeometry x="-100" y="375" width="60" height="25" as="geometry" />
         </mxCell>
         <mxCell id="e_t1_t1p" style="rounded=1;strokeColor=#444;strokeWidth=1;dashed=1;" parent="1" source="t1" target="t1p" edge="1">
           <mxGeometry relative="1" as="geometry" />
