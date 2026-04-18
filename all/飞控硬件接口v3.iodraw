@@ -121,8 +121,13 @@
         <mxCell id="44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="4" target="41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vt0vcgQ7bssQpRz-3Dfz-108" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 9px; text-align: left;&quot;&gt;UART+I2C&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="44">
+          <mxGeometry x="-0.7287" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="46" value="主GPS+罗盘" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#e1d5e7;fontColor=#333333;strokeColor=#9673a6;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="400" width="90" height="30" as="geometry" />
+          <mxGeometry x="345" y="400" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="47" value="" style="rounded=1;strokeColor=#999999;strokeWidth=1;dashed=1;" parent="1" source="40" target="46" edge="1">
           <mxGeometry relative="1" as="geometry" />
