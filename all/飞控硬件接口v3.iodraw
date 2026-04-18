@@ -68,7 +68,7 @@
             <mxPoint x="25" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="3" target="22" edge="1">
+        <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=1.5;exitX=0.541;exitY=0.978;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3" target="22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="28" value="UART" style="edgeLabel;html=1;fontSize=9;fontColor=#333333;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="27" vertex="1" connectable="0">
