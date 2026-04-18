@@ -301,6 +301,9 @@
         <mxCell id="99" value="" style="rounded=1;strokeColor=#999999;strokeWidth=1;dashed=1;" parent="1" source="83" target="98" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ISrxNa15ua2j3lYG8rj--99" value="根据实际需求选定飞控版本" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=0;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="860" y="-280" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
