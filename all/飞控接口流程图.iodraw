@@ -86,9 +86,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="160" y="280" />
-              <mxPoint x="250" y="280" />
-              <mxPoint x="250" y="320" />
-              <mxPoint x="190" y="320" />
+              <mxPoint x="190" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -99,7 +97,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t3f" value="备用外设" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="75" y="530" width="70" height="25" as="geometry" />
+          <mxGeometry x="260" y="370" width="70" height="25" as="geometry" />
         </mxCell>
         <mxCell id="e_t3_t3f" style="rounded=1;strokeColor=#444;strokeWidth=1;dashed=1;" parent="1" source="t3" target="t3f" edge="1">
           <mxGeometry relative="1" as="geometry" />
