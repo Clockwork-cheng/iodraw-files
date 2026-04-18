@@ -7,8 +7,13 @@
         <mxCell id="2" value="飞控硬件选型" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;fontColor=#333333;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="850" y="-110" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vt0vcgQ7bssQpRz-3Dfz-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="22">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="vt0vcgQ7bssQpRz-3Dfz-106" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#333333;strokeWidth=1.5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="3" target="22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="250" />
+              <mxPoint x="275" y="250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="3" value="通信接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#dae8fc;fontColor=#333333;strokeColor=#6c8ebf;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="60" y="160" width="120" height="40" as="geometry" />
