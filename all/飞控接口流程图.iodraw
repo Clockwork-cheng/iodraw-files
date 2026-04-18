@@ -7,13 +7,13 @@
         <mxCell id="top" value="飞控硬件选型" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="650" y="30" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="g1" value="通信接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#0f3460;fontColor=#ffffff;strokeColor=#16213e;strokeWidth=1.5;" parent="1" vertex="1">
+        <mxCell id="g1" value="通信接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="100" y="150" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e_top_g1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#e94560;strokeWidth=1.5;" parent="1" source="top" target="g1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g2" value="定位接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#0f3460;fontColor=#ffffff;strokeColor=#16213e;strokeWidth=1.5;" parent="1" vertex="1">
+        <mxCell id="g2" value="定位接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="350" y="150" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e_top_g2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#e94560;strokeWidth=1.5;" parent="1" source="top" target="g2" edge="1">
@@ -259,6 +259,9 @@
         <mxCell id="e_usb_f" style="rounded=1;strokeColor=#444;strokeWidth=1;dashed=1;" parent="1" source="usb" target="usbf" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vUGpwQqCq0oGkAYfVM1J-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dbg" target="vUGpwQqCq0oGkAYfVM1J-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dbg" value="Debug" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#533483;fontColor=#ffffff;strokeColor=#2c2c54;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1430" y="370" width="100" height="35" as="geometry" />
         </mxCell>
@@ -270,6 +273,9 @@
         </mxCell>
         <mxCell id="e_dbg_f" style="rounded=1;strokeColor=#444;strokeWidth=1;dashed=1;" parent="1" source="dbg" target="dbgf" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vUGpwQqCq0oGkAYfVM1J-1" value="Debug" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#533483;fontColor=#ffffff;strokeColor=#2c2c54;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="255" width="100" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
