@@ -207,12 +207,7 @@
         <mxCell id="71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="7" target="70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="72" value="S.Bus/PPM" style="edgeLabel;html=1;fontSize=9;fontColor=#333333;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="71" vertex="1" connectable="0">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vt0vcgQ7bssQpRz-3Dfz-113" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="71">
+        <mxCell id="vt0vcgQ7bssQpRz-3Dfz-113" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 9px; text-align: left;&quot;&gt;S.Bus/PPM&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="71">
           <mxGeometry x="-0.3095" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -240,6 +235,11 @@
         </mxCell>
         <mxCell id="85" value="模拟/I2C" style="edgeLabel;html=1;fontSize=9;fontColor=#333333;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="84" vertex="1" connectable="0">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vt0vcgQ7bssQpRz-3Dfz-114" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 9px; text-align: left;&quot;&gt;模拟/I2C&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="84">
+          <mxGeometry x="0.3326" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
