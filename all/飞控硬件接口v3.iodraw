@@ -118,18 +118,8 @@
         <mxCell id="42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="4" target="40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="43" value="UART+I2C" style="edgeLabel;html=1;fontSize=9;fontColor=#333333;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="42" vertex="1" connectable="0">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=1.5;" parent="1" source="4" target="41" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="45" value="UART+I2C" style="edgeLabel;html=1;fontSize=9;fontColor=#333333;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="44" vertex="1" connectable="0">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="46" value="主GPS+罗盘" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#e1d5e7;fontColor=#333333;strokeColor=#9673a6;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="400" width="90" height="30" as="geometry" />
