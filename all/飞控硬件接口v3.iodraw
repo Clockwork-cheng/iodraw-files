@@ -301,8 +301,8 @@
         <mxCell id="99" value="" style="rounded=1;strokeColor=#999999;strokeWidth=1;dashed=1;" parent="1" source="83" target="98" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ISrxNa15ua2j3lYG8rj--99" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;根据实际需求选定飞控版本&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#333333;labelBackgroundColor=default;resizable=0;fillColor=#dae8fc;gradientColor=none;strokeColor=#6c8ebf;strokeWidth=2;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="-280" width="120" height="60" as="geometry" />
+        <mxCell id="ISrxNa15ua2j3lYG8rj--99" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;根据实际需求选定飞控版本&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#333333;labelBackgroundColor=none;resizable=0;fillColor=#dae8fc;gradientColor=none;strokeColor=#6c8ebf;strokeWidth=2;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="-270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
