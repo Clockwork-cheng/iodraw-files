@@ -19,25 +19,25 @@
         <mxCell id="e_top_g2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#e94560;strokeWidth=1.5;" parent="1" source="top" target="g2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g3" value="扩展总线" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#0f3460;fontColor=#ffffff;strokeColor=#16213e;strokeWidth=1.5;" parent="1" vertex="1">
+        <mxCell id="g3" value="扩展总线" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="600" y="150" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e_top_g3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#e94560;strokeWidth=1.5;" parent="1" source="top" target="g3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g4" value="执行器输出" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#0f3460;fontColor=#ffffff;strokeColor=#16213e;strokeWidth=1.5;" parent="1" vertex="1">
+        <mxCell id="g4" value="执行器输出" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="850" y="150" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e_top_g4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#e94560;strokeWidth=1.5;" parent="1" source="top" target="g4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g5" value="遥控输入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#0f3460;fontColor=#ffffff;strokeColor=#16213e;strokeWidth=1.5;" parent="1" vertex="1">
+        <mxCell id="g5" value="遥控输入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="1100" y="150" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e_top_g5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#e94560;strokeWidth=1.5;" parent="1" source="top" target="g5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g6" value="电源与调试" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#0f3460;fontColor=#ffffff;strokeColor=#16213e;strokeWidth=1.5;" parent="1" vertex="1">
+        <mxCell id="g6" value="电源与调试" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="1350" y="150" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e_top_g6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#e94560;strokeWidth=1.5;" parent="1" source="top" target="g6" edge="1">
