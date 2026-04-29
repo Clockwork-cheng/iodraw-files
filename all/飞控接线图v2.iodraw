@@ -127,10 +127,10 @@
         <mxCell id="ubec" value="Holybro UBEC 12A&lt;br&gt;给 Jetson 供电" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="710" y="680" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="V88K7w_To_MWjTgWnDkv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bec12v" target="siyi">
+        <mxCell id="V88K7w_To_MWjTgWnDkv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bec12v" target="siyi">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="725" />
+              <mxPoint x="380" y="725" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -156,8 +156,8 @@
         <mxCell id="V88K7w_To_MWjTgWnDkv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bec12v" target="2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="725" />
-              <mxPoint x="320" y="520" />
+              <mxPoint x="380" y="725" />
+              <mxPoint x="380" y="520" />
               <mxPoint x="580" y="520" />
             </Array>
           </mxGeometry>
