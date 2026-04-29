@@ -7,7 +7,7 @@
         <mxCell id="4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;外设&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFAF0;strokeColor=#B8860B;arcSize=2;verticalAlign=top;align=center;fontSize=12;fontStyle=1;fontColor=#8B6914;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="90" y="190" width="680" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="title" value="无人机系统级接线图 v2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="title" value="无人机系统级接线图-0429- v2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="20" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="subtitle" value="Holybro Pixhawk Jetson Baseboard · 4S 双电池并联 · 外接 UBEC 12A" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontColor=#666666" parent="1" vertex="1">
@@ -241,12 +241,6 @@
               <mxPoint x="285" y="760" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="note-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFEF0;strokeColor=#D4A017;arcSize=4;dashed=1" parent="1" vertex="1">
-          <mxGeometry x="60" y="1080" width="1700" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="note-title" value="设计说明 / 待确认事项" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#8B6914" parent="1" vertex="1">
-          <mxGeometry x="75" y="1088" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2" value="大疆osmo360" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#0277BD;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="510" y="300" width="140" height="80" as="geometry" />
