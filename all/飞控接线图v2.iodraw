@@ -204,9 +204,6 @@
             <mxPoint x="550" y="680" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-bec-mid360" value="12V / 1.5A" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=1.5;exitX=0.8;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#1F6FB2" parent="1" source="bec12v" target="mid360" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="e-bec-pano" value="供电（待定）" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=1.5;dashed=1;exitX=0.95;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#1F6FB2" parent="1" source="bec12v" target="pano" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
