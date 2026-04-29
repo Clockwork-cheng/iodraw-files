@@ -134,7 +134,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V88K7w_To_MWjTgWnDkv-13" value="12V/1A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V88K7w_To_MWjTgWnDkv-7">
+        <mxCell id="V88K7w_To_MWjTgWnDkv-13" value="12V/1A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=#1F6FB2;strokeWidth=1.5;fontFamily=Helvetica;fontSize=10;fontColor=#1F6FB2;labelBackgroundColor=default;" vertex="1" connectable="0" parent="V88K7w_To_MWjTgWnDkv-7">
           <mxGeometry x="0.6954" y="-1" relative="1" as="geometry">
             <mxPoint x="-1" y="8" as="offset" />
           </mxGeometry>
