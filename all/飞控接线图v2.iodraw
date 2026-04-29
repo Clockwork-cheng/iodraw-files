@@ -124,7 +124,7 @@
         <mxCell id="power-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=#888888;arcSize=4;verticalAlign=top;align=right;fontSize=11;fontColor=#888888;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="60" y="620" width="1700" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="pdb" value="电源模块 PM02D&#xa;&#xa;6S 输入 / 给飞控供电+电流采样" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
+        <mxCell id="pdb" value="电源模块 PM02D&lt;br&gt;&lt;br&gt;给飞控供电+电流采样" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="980" y="680" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ubec" value="Holybro UBEC 12A&lt;br&gt;给 Jetson 供电" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
