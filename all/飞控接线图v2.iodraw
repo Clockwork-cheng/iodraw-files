@@ -1,11 +1,11 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="NCmrg6odcdn-lmMCG8wO" name="第 1 页">
-    <mxGraphModel dx="3835" dy="1372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1300" math="0" shadow="0">
+    <mxGraphModel dx="2035" dy="1372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;外设&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFAF0;strokeColor=#B8860B;arcSize=2;verticalAlign=top;align=center;fontSize=12;fontStyle=1;fontColor=#8B6914;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="30" y="190" width="680" height="380" as="geometry" />
+          <mxGeometry x="90" y="190" width="680" height="380" as="geometry" />
         </mxCell>
         <mxCell id="title" value="无人机系统级接线图 v2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="20" width="500" height="30" as="geometry" />
@@ -65,10 +65,10 @@
           <mxGeometry x="1475" y="130" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hm30" value="HM30 天空端&#xa;&#xa;图传 + 遥控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#0277BD;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
-          <mxGeometry x="40" y="300" width="140" height="80" as="geometry" />
+          <mxGeometry x="100" y="300" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="siyi" value="思翼 A8 mini" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#0277BD;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
-          <mxGeometry x="250" y="300" width="140" height="80" as="geometry" />
+          <mxGeometry x="310" y="300" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mid360" value="Livox Mid-360&#xa;&#xa;激光雷达" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#0277BD;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="1385" y="210" width="140" height="80" as="geometry" />
@@ -236,8 +236,8 @@
             <Array as="points">
               <mxPoint x="870" y="460" />
               <mxPoint x="870" y="110" />
-              <mxPoint x="-100" y="110" />
-              <mxPoint x="-100" y="760" />
+              <mxPoint x="40" y="110" />
+              <mxPoint x="40" y="760" />
               <mxPoint x="285" y="760" />
             </Array>
           </mxGeometry>
@@ -252,7 +252,7 @@
           <mxGeometry x="75" y="1108" width="1670" height="145" as="geometry" />
         </mxCell>
         <mxCell id="2" value="大疆osmo360" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#0277BD;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
-          <mxGeometry x="450" y="300" width="140" height="80" as="geometry" />
+          <mxGeometry x="510" y="300" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
