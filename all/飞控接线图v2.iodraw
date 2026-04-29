@@ -185,21 +185,26 @@
         <mxCell id="bat2" value="电池 2&lt;br&gt;4S&amp;nbsp;&lt;br&gt;22.2V&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#555555;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="840" y="970" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-bat1-par" value="XT60 / 10AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B" parent="1" source="bat1" target="parallel" edge="1">
+        <mxCell id="e-bat1-par" value="" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B" parent="1" source="bat1" target="parallel" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e-bat2-par" value="XT60 / 10AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.6;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B" parent="1" source="bat2" target="parallel" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e-par-pdb" value="主电汇流  XT60 / 8AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B" parent="1" target="pdb" edge="1">
+        <mxCell id="e-par-pdb" value="" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B" parent="1" target="pdb" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="810" y="830" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-par-ubec" value="4S 输入&lt;br&gt;XT30 / 14AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;fontSize=10;fontColor=#C0392B;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="ubec" edge="1">
+        <mxCell id="e-par-ubec" value="" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;fontSize=10;fontColor=#C0392B;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="ubec" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="810" y="830" as="sourcePoint" />
             <mxPoint x="760" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-par-bec12" value="" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B;" parent="1" target="bec12v" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="830" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-par-esc" value="动力主电  XT60 / 8AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B" parent="1" source="parallel" target="esc" edge="1">
