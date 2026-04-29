@@ -139,7 +139,7 @@
         </mxCell>
         <mxCell id="V88K7w_To_MWjTgWnDkv-13" value="12V/1A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V88K7w_To_MWjTgWnDkv-7">
           <mxGeometry x="0.6954" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V88K7w_To_MWjTgWnDkv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bec12v" target="hm30">
@@ -153,7 +153,7 @@
         </mxCell>
         <mxCell id="V88K7w_To_MWjTgWnDkv-12" value="12V/2A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V88K7w_To_MWjTgWnDkv-10">
           <mxGeometry x="0.7421" y="2" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
+            <mxPoint x="2" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V88K7w_To_MWjTgWnDkv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bec12v" target="2">
@@ -167,7 +167,7 @@
         </mxCell>
         <mxCell id="V88K7w_To_MWjTgWnDkv-14" value="12V/2A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V88K7w_To_MWjTgWnDkv-11">
           <mxGeometry x="0.7422" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="4" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bec12v" value="12V BEC 模块&#xa;&#xa;给 A8/HM30/Mid360 供电" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
