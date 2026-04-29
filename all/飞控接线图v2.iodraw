@@ -148,7 +148,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V88K7w_To_MWjTgWnDkv-12" value="12V/2A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V88K7w_To_MWjTgWnDkv-10">
+        <mxCell id="V88K7w_To_MWjTgWnDkv-12" value="12V/2A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="V88K7w_To_MWjTgWnDkv-10">
           <mxGeometry x="0.7421" y="2" relative="1" as="geometry">
             <mxPoint x="2" y="-8" as="offset" />
           </mxGeometry>
@@ -162,7 +162,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V88K7w_To_MWjTgWnDkv-14" value="12V/2A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V88K7w_To_MWjTgWnDkv-11">
+        <mxCell id="V88K7w_To_MWjTgWnDkv-14" value="12V/2A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="V88K7w_To_MWjTgWnDkv-11">
           <mxGeometry x="0.7422" y="4" relative="1" as="geometry">
             <mxPoint x="4" y="-7" as="offset" />
           </mxGeometry>
