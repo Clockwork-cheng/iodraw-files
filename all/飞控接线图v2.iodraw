@@ -10,7 +10,7 @@
         <mxCell id="title" value="无人机系统级接线图 v2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="20" width="500" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" value="Holybro Pixhawk Jetson Baseboard · 6S 双电池并联 · 外接 UBEC 12A" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontColor=#666666" parent="1" vertex="1">
+        <mxCell id="subtitle" value="Holybro Pixhawk Jetson Baseboard · 4S 双电池并联 · 外接 UBEC 12A" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontColor=#666666" parent="1" vertex="1">
           <mxGeometry x="40" y="50" width="700" height="20" as="geometry" />
         </mxCell>
         <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=#999999;arcSize=8" parent="1" vertex="1">
@@ -170,7 +170,7 @@
         <mxCell id="bec12v" value="12V BEC 模块&#xa;&#xa;给 A8/HM30/Mid360 供电" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="450" y="680" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="esc" value="电调 ESC&amp;nbsp;&lt;br&gt;&lt;br&gt;6S 输入 / PWM控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
+        <mxCell id="esc" value="电调 ESC&amp;nbsp;&lt;br&gt;&lt;br&gt;4S 输入 / PWM控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="195" y="830" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="motor" value="电机 BLDC ×N&#xa;&#xa;动力输出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
@@ -182,7 +182,7 @@
         <mxCell id="bat1" value="电池 1&lt;br&gt;4S&amp;nbsp;&lt;br&gt;22.2V" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#555555;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="610" y="970" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bat2" value="电池 2&lt;br&gt;6S&amp;nbsp;&lt;br&gt;22.2V&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#555555;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
+        <mxCell id="bat2" value="电池 2&lt;br&gt;4S&amp;nbsp;&lt;br&gt;22.2V&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#555555;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="840" y="970" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="e-bat1-par" value="XT60 / 10AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B" parent="1" source="bat1" target="parallel" edge="1">
@@ -196,13 +196,13 @@
             <mxPoint x="810" y="830" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-par-ubec" value="6S 输入&#xa;XT30 / 14AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;fontSize=10;fontColor=#C0392B;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="ubec" edge="1">
+        <mxCell id="e-par-ubec" value="4S 输入&lt;br&gt;XT30 / 14AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;fontSize=10;fontColor=#C0392B;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="ubec" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="810" y="830" as="sourcePoint" />
             <mxPoint x="760" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-par-bec12" value="6S 输入&#xa;XT30 / 16AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B;" parent="1" target="bec12v" edge="1">
+        <mxCell id="e-par-bec12" value="4S 输入&lt;br&gt;XT30 / 16AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B;" parent="1" target="bec12v" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="810" y="830" as="sourcePoint" />
           </mxGeometry>
@@ -248,7 +248,7 @@
         <mxCell id="note-title" value="设计说明 / 待确认事项" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#8B6914" parent="1" vertex="1">
           <mxGeometry x="75" y="1088" width="300" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="note-content" value="【关键设计点】&#xa;① Holybro Pixhawk Jetson Baseboard 是一体化载板：飞控↔Jetson 已通过板内 UART (TELEM2↔THS1) 与板载以太网交换机连接，无需外部接线，PX4 默认两路均跑 MAVLink&#xa;② 板载 BEC 仅支持 7-21V (3S-4S)，本方案 6S=22.2V 已超限，必须外接 Holybro UBEC 12A (3-14S)，输出 5.5V 给 Jetson 的 XT30 输入口供电（关键采购件）&#xa;③ 飞控通过 GH 6P CLIK-Mate 线接电源模块 PM02D 的 POWER1 口，获取供电+电流电压采样&#xa;④ Mid-360 接 Baseboard 引出的 RJ45 口（板载以太网交换机），可与 Jetson 同网段通信，无需占用 Jetson USB&#xa;&#xa;【待确认事项】&#xa;① 电池容量、放电倍率（C 数）— 决定持续电流与动力线最终线径&#xa;② 电机/电调最大持续电流 — 当前默认 8AWG 主线 + 12AWG 三相，需按实际电流校核&#xa;③ 轴数（4/6/8）— 决定 PWM 通道数和电调数量 N&#xa;④ 全景相机型号 — 接口（USB/Ethernet/HDMI）、供电电压、是否需要独立供电模块" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#5D4A0A" parent="1" vertex="1">
+        <mxCell id="note-content" value="【关键设计点】&lt;br&gt;① Holybro Pixhawk Jetson Baseboard 是一体化载板：飞控↔Jetson 已通过板内 UART (TELEM2↔THS1) 与板载以太网交换机连接，无需外部接线，PX4 默认两路均跑 MAVLink&lt;br&gt;② 板载 BEC 仅支持 7-21V (3S-4S)，本方案 4S=22.2V 已超限，必须外接 Holybro UBEC 12A (3-14S)，输出 5.5V 给 Jetson 的 XT30 输入口供电（关键采购件）&lt;br&gt;③ 飞控通过 GH 6P CLIK-Mate 线接电源模块 PM02D 的 POWER1 口，获取供电+电流电压采样&lt;br&gt;④ Mid-360 接 Baseboard 引出的 RJ45 口（板载以太网交换机），可与 Jetson 同网段通信，无需占用 Jetson USB&lt;br&gt;&lt;br&gt;【待确认事项】&lt;br&gt;① 电池容量、放电倍率（C 数）— 决定持续电流与动力线最终线径&lt;br&gt;② 电机/电调最大持续电流 — 当前默认 8AWG 主线 + 12AWG 三相，需按实际电流校核&lt;br&gt;③ 轴数（4/6/8）— 决定 PWM 通道数和电调数量 N&lt;br&gt;④ 全景相机型号 — 接口（USB/Ethernet/HDMI）、供电电压、是否需要独立供电模块" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#5D4A0A" parent="1" vertex="1">
           <mxGeometry x="75" y="1108" width="1670" height="145" as="geometry" />
         </mxCell>
         <mxCell id="2" value="大疆osmo360" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#0277BD;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
