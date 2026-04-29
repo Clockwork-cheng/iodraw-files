@@ -139,7 +139,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bec12v" value="12V BEC 模块&#xa;&#xa;给 A8/HM30/Mid360 供电" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
-          <mxGeometry x="450" y="660" width="200" height="110" as="geometry" />
+          <mxGeometry x="450" y="680" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="esc" value="电调 ESC&amp;nbsp;&lt;br&gt;&lt;br&gt;6S 输入 / PWM控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="195" y="830" width="180" height="80" as="geometry" />
@@ -205,7 +205,7 @@
         <mxCell id="e-bec-siyi" value="12V/1A" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=1.5;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;fontColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=default;resizable=0;fillColor=none;gradientColor=none;" parent="1" source="bec12v" target="siyi" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e-bec-hm30" value="12V / 2A" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=1.5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;fontColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=default;resizable=0;fillColor=none;gradientColor=none;" parent="1" target="hm30" edge="1">
+        <mxCell id="e-bec-hm30" value="12V / 2A" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=1.5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;fontColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=default;resizable=0;fillColor=none;gradientColor=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="hm30" edge="1" source="bec12v">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="680" as="sourcePoint" />
           </mxGeometry>
