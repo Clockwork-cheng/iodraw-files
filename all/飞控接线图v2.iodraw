@@ -179,7 +179,7 @@
         <mxCell id="parallel" value="并联器&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="700" y="830" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bat1" value="电池 1&lt;br&gt;6S&amp;nbsp;&lt;br&gt;22.2V" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#555555;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
+        <mxCell id="bat1" value="电池 1&lt;br&gt;4S&amp;nbsp;&lt;br&gt;22.2V" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#555555;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="610" y="970" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bat2" value="电池 2&lt;br&gt;6S&amp;nbsp;&lt;br&gt;22.2V&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#555555;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
