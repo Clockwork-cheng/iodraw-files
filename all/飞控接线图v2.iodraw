@@ -118,7 +118,7 @@
         <mxCell id="port-csi" value="CSI/CAM1&#xa;(MIPI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=10;arcSize=20;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="1405" y="440" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="baseboard-note" value="⚠ 飞控 ↔ Jetson 已通过板内 UART 与以太网交换机互联，无需外部接线" style="text;html=1;strokeColor=none;fillColor=#FFF9C4;align=center;verticalAlign=middle;fontSize=11;fontColor=#8B6914;fontStyle=2;rounded=1" parent="1" vertex="1">
+        <mxCell id="baseboard-note" value="⚠ 飞控 ↔ Jetson&amp;nbsp;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;已通过板内 UART 与以太网交换机互联，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;无需外部接线&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#FFF9C4;align=center;verticalAlign=middle;fontSize=11;fontColor=#8B6914;fontStyle=2;rounded=1" parent="1" vertex="1">
           <mxGeometry x="1462.5" y="440" width="185" height="110" as="geometry" />
         </mxCell>
         <mxCell id="power-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=#888888;arcSize=4;verticalAlign=top;align=right;fontSize=11;fontColor=#888888;fontStyle=1" parent="1" vertex="1">
