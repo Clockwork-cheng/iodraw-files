@@ -106,7 +106,7 @@
         <mxCell id="port-rcin" value="RC IN&#xa;(SBUS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;arcSize=20;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="1115" y="440" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="port-jetson-xt30" value="Jetson XT30&#xa;(电源输入)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#C62828;fontSize=10;arcSize=20;verticalAlign=middle" parent="1" vertex="1">
+        <mxCell id="port-jetson-xt30" value="Jetson&lt;br&gt;(电源输入)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#C62828;fontSize=10;arcSize=20;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="1305" y="380" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="port-rj45" value="RJ45&#xa;(对外以太网)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=10;arcSize=20;verticalAlign=middle" parent="1" vertex="1">
