@@ -137,7 +137,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V88K7w_To_MWjTgWnDkv-13" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V88K7w_To_MWjTgWnDkv-7">
+        <mxCell id="V88K7w_To_MWjTgWnDkv-13" value="12V/1A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V88K7w_To_MWjTgWnDkv-7">
           <mxGeometry x="0.6954" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -163,6 +163,11 @@
               <mxPoint x="320" y="520" />
               <mxPoint x="520" y="520" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V88K7w_To_MWjTgWnDkv-14" value="12V/2A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V88K7w_To_MWjTgWnDkv-11">
+          <mxGeometry x="0.7422" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bec12v" value="12V BEC 模块&#xa;&#xa;给 A8/HM30/Mid360 供电" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
