@@ -202,11 +202,6 @@
             <mxPoint x="760" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-par-bec12" value="4S 输入&lt;br&gt;XT30 / 16AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B;" parent="1" target="bec12v" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="830" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="e-par-esc" value="动力主电  XT60 / 8AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B" parent="1" source="parallel" target="esc" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
