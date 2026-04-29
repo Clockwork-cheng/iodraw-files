@@ -231,7 +231,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-pwm-esc" value="&lt;b&gt;PWM 信号  M1~M8&lt;/b&gt;" style="endArrow=classic;html=1;strokeColor=#7B3FA0;strokeWidth=1.5;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#7B3FA0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="port-pwm" target="esc" edge="1">
+        <mxCell id="e-pwm-esc" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;PWM 信号  M1~M8&lt;/font&gt;&lt;/b&gt;" style="endArrow=classic;html=1;strokeColor=#7B3FA0;strokeWidth=1.5;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#7B3FA0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="port-pwm" target="esc" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="870" y="460" />
