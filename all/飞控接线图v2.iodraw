@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="NCmrg6odcdn-lmMCG8wO" name="第 1 页">
-    <mxGraphModel dx="4242" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1300" math="0" shadow="0">
+    <mxGraphModel dx="3236" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,9 +63,6 @@
         </mxCell>
         <mxCell id="leg-internal-label" value="板内已连接（无需接线）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#666666" parent="1" vertex="1">
           <mxGeometry x="1475" y="130" width="280" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="leg-note" value="所有 GH 接口 = JST GH 1.25mm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#888888;fontStyle=2" parent="1" vertex="1">
-          <mxGeometry x="1415" y="160" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hm30" value="HM30 天空端&#xa;&#xa;图传 + 遥控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#0277BD;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle" parent="1" vertex="1">
           <mxGeometry x="40" y="300" width="140" height="80" as="geometry" />
