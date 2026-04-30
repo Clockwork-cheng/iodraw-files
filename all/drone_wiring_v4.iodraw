@@ -455,7 +455,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-mid360-eth" value="以太网 RJ45 (T568B)&#xa;点云数据" style="endArrow=classic;html=1;strokeColor=#2E8B57;strokeWidth=2;dashed=1;dashPattern=1 4;exitX=0;exitY=0.7;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#2E8B57;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-mid360" target="port-rj45" edge="1">
+        <mxCell id="e-mid360-eth" value="以太网 RJ45 (T568B)&#xa;点云数据" style="endArrow=classic;html=1;strokeColor=#2E8B57;strokeWidth=2;dashed=1;dashPattern=1 4;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#2E8B57;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="mid360-r3c1" target="port-rj45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e-osmo-usb" value="USB-C  视频/控制&#xa;（待确认）" style="endArrow=classic;html=1;strokeColor=#0277BD;strokeWidth=2;dashed=1;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#0277BD;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-osmo" edge="1">
@@ -473,8 +473,8 @@
               <mxPoint x="2140" y="1280" />
               <mxPoint x="2200" y="1280" />
               <mxPoint x="2200" y="570" />
-              <mxPoint x="1700" y="570" />
-              <mxPoint x="1700" y="319" />
+              <mxPoint x="1660" y="570" />
+              <mxPoint x="1660" y="319" />
             </Array>
           </mxGeometry>
         </mxCell>
