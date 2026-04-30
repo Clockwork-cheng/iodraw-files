@@ -400,7 +400,7 @@
           <mxGeometry x="560" y="1380" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ubec-block" value="UBEC 12A&#xa;5.5V / 12A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="530" y="973" width="160" height="80" as="geometry" />
+          <mxGeometry x="530" y="968" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bec12-block" value="12V BEC&#xa;给外设供电" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1460" y="1330" width="160" height="80" as="geometry" />
@@ -428,8 +428,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-par-ubec" value="XT30&#xa;14.8V → UBEC" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B;edgeStyle=orthogonalEdgeStyle;" parent="1" source="parallel" target="ubec-block" edge="1">
+        <mxCell id="e-par-ubec" value="XT30&#xa;14.8V → UBEC" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;exitX=1;exitY=0.7;exitDx=0;exitDy=0;fontSize=10;fontColor=#C0392B;edgeStyle=orthogonalEdgeStyle;" parent="1" source="parallel" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1020" as="targetPoint" />
             <Array as="points">
               <mxPoint x="755" y="1286" />
               <mxPoint x="755" y="1180" />
@@ -504,6 +505,9 @@
           <mxGeometry x="75" y="1577" width="2280" height="125" as="geometry" />
         </mxCell>
         <mxCell id="rQu_LLziQFWWLN30Y0RU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hm30-title" target="hm30-title">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rQu_LLziQFWWLN30Y0RU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.014;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pdb-r1c3" target="ubec-block">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
