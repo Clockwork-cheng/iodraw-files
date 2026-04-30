@@ -97,61 +97,61 @@
           <mxGeometry x="1173" y="453" width="55" height="28" as="geometry" />
         </mxCell>
         <mxCell id="card-hm30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0277BD;arcSize=4;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="1100" y="-190" width="380" height="280" as="geometry" />
+          <mxGeometry x="1070" y="-230" width="380" height="280" as="geometry" />
         </mxCell>
         <mxCell id="hm30-title" value="HM30 天空端" style="text;html=1;strokeColor=none;fillColor=#E1F5FE;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#01579B;rounded=1" parent="1" vertex="1">
-          <mxGeometry x="1100" y="-190" width="380" height="32" as="geometry" />
+          <mxGeometry x="1070" y="-230" width="380" height="32" as="geometry" />
         </mxCell>
         <mxCell id="hm30-subtitle" value="数字图传 + 遥控（双向）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontColor=#666666;fontStyle=2" parent="1" vertex="1">
-          <mxGeometry x="1100" y="-156" width="380" height="20" as="geometry" />
+          <mxGeometry x="1070" y="-196" width="380" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hm30-tbl-h1" value="HM30 接口" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1110" y="-130" width="100" height="26" as="geometry" />
+          <mxGeometry x="1080" y="-170" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-tbl-h2" value="信号 / 协议" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1210" y="-130" width="100" height="26" as="geometry" />
+          <mxGeometry x="1180" y="-170" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-tbl-h3" value="连接到载板" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1310" y="-130" width="160" height="26" as="geometry" />
+          <mxGeometry x="1280" y="-170" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-r1c1" value="RC OUT" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1110" y="-104" width="100" height="26" as="geometry" />
+          <mxGeometry x="1080" y="-144" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-r1c2" value="SBUS&#xa;GH1.25 3P" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1210" y="-104" width="100" height="26" as="geometry" />
+          <mxGeometry x="1180" y="-144" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-r1c3" value="飞控 RC IN" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFDE7;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1310" y="-104" width="160" height="26" as="geometry" />
+          <mxGeometry x="1280" y="-144" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-r2c1" value="UART" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1110" y="-78" width="100" height="26" as="geometry" />
+          <mxGeometry x="1080" y="-118" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-r2c2" value="MAVLink&#xa;GH1.25 4P" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1210" y="-78" width="100" height="26" as="geometry" />
+          <mxGeometry x="1180" y="-118" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-r2c3" value="飞控 TEL1" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFDE7;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1310" y="-78" width="160" height="26" as="geometry" />
+          <mxGeometry x="1280" y="-118" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-r3c1" value="HDMI / USB" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1110" y="-52" width="100" height="26" as="geometry" />
+          <mxGeometry x="1080" y="-92" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-r3c2" value="视频源&#xa;USB-A" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1210" y="-52" width="100" height="26" as="geometry" />
+          <mxGeometry x="1180" y="-92" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-r3c3" value="Jetson USB 3.0" style="text;html=1;strokeColor=#CCCCCC;fillColor=#E8F5E9;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1310" y="-52" width="160" height="26" as="geometry" />
+          <mxGeometry x="1280" y="-92" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-r4c1" value="DC IN" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1110" y="-26" width="100" height="26" as="geometry" />
+          <mxGeometry x="1080" y="-66" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-r4c2" value="12V / 2A&#xa;XT30" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1210" y="-26" width="100" height="26" as="geometry" />
+          <mxGeometry x="1180" y="-66" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-r4c3" value="12V BEC" style="text;html=1;strokeColor=#CCCCCC;fillColor=#E3F2FD;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1310" y="-26" width="160" height="26" as="geometry" />
+          <mxGeometry x="1280" y="-66" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hm30-cable" value="● 配线说明：HM30 → 飞控走 SBUS（GH1.25 3P 信号线）+ MAVLink（GH1.25 4P）；HM30 → Jetson 走 USB-A 线；DC 12V 由 12V BEC 模块独立供电" style="text;html=1;strokeColor=none;fillColor=#FFF9C4;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=10;fontColor=#5D4A0A;rounded=1" parent="1" vertex="1">
-          <mxGeometry x="1110" y="10" width="360" height="70" as="geometry" />
+          <mxGeometry x="1080" y="-30" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="card-siyi" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0277BD;arcSize=4;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="710" y="-190" width="230" height="200" as="geometry" />
@@ -486,9 +486,6 @@
         </mxCell>
         <mxCell id="note-content" value="【接口对应汇总】（外设 → 载板接口）&#xa;　• HM30 → RC IN (SBUS) + TEL1 (MAVLink) + USB3.0 (视频源) + 12V BEC (供电)&#xa;　• A8 mini → ETH-P1 (RTSP 视频流) + SBUS OUT (云台控制) + 12V BEC (供电)&#xa;　• Mid-360 → ETH-P1 (T568B 端接) + 12V BEC 独立供电（注意不与飞控共地）&#xa;　• Osmo 360 → Orin USB 2.0 / USB 3.0 (USB-C 线，待确认是否实时数据)&#xa;　• PM02D → POWER1 (GH 6P，飞控供电+电流采样)&#xa;　• UBEC 12A → Jetson PWR (XT30，5.5V/12A 主供电)&#xa;　• 飞控 I/O PWM (M1~M8) → 8 路 ESC (PWM 信号线)&#xa;&#xa;【关键提示】① 飞控↔Jetson 通过载板内部 UART(TELEM2↔THS1) + 板载以太网交换机互联，无需外部接线  ② ETH-P1 是板载交换机引出口，A8/Mid-360 同时接此处可与 Jetson 同网段通信  ③ 4S 系统下板载 BEC 仍可承载 Jetson 但建议外接 UBEC 12A 提供冗余&#xa;【待确认】① ESC 型号与最大持续电流（决定 10AWG 主线是否足够）  ② Osmo 360 接入方式（USB 实时 vs SD 卡录制后导出）  ③ A8 mini 实际供电电压规格（部分型号需 14V，需查 datasheet）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#5D4A0A" parent="1" vertex="1">
           <mxGeometry x="75" y="1577" width="2280" height="125" as="geometry" />
-        </mxCell>
-        <mxCell id="rQu_LLziQFWWLN30Y0RU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hm30-title" target="hm30-title">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rQu_LLziQFWWLN30Y0RU-9" value="" style="endArrow=classic;html=1;strokeColor=#7B3FA0;strokeWidth=2;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#7B3FA0;edgeStyle=orthogonalEdgeStyle;fontStyle=1" edge="1" parent="1" source="port-iopwm" target="ubec-block">
           <mxGeometry relative="1" as="geometry">
