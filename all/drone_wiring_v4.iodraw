@@ -400,7 +400,7 @@
           <mxGeometry x="540" y="1390" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bec12-block" value="12V BEC&#xa;给外设供电" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="1460" y="1330" width="160" height="80" as="geometry" />
+          <mxGeometry x="2060" y="1380" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="e-bat1-par" value="XT60&#xa;10AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B" parent="1" source="bat1" target="parallel" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -477,11 +477,13 @@
             <mxPoint x="965.0000000000091" y="714.0000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-bec-mid360" value="12V/1.5A  XT30&#xa;Mid-360 独立供电" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.85;entryDx=0;entryDy=0;fontSize=10;fontColor=#1F6FB2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="bec12-block" target="card-mid360" edge="1">
+        <mxCell id="e-bec-mid360" value="12V/1.5A  XT30&#xa;Mid-360 独立供电" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.85;entryDx=0;entryDy=0;fontSize=10;fontColor=#1F6FB2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="bec12-block" target="card-mid360" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="2140" y="1280" />
               <mxPoint x="2200" y="1280" />
               <mxPoint x="2200" y="455" />
+              <mxPoint x="1700" y="455" />
             </Array>
           </mxGeometry>
         </mxCell>
