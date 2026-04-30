@@ -82,9 +82,6 @@
         <mxCell id="port-rcin" value="RC IN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1460" y="492" width="60" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="port-sbusout" value="SBUS OUT" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="770" y="340" width="80" height="28" as="geometry" />
-        </mxCell>
         <mxCell id="port-iopwm" value="I/O PWM" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1390" y="453" width="80" height="28" as="geometry" />
         </mxCell>
@@ -191,45 +188,6 @@
         </mxCell>
         <mxCell id="siyi-r4c2" value="12V / 1A&#xa;XT30" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
           <mxGeometry x="820" y="-26" width="100" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="card-osmo" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;arcSize=4;strokeWidth=2;dashed=1" parent="1" vertex="1">
-          <mxGeometry x="50" y="510" width="380" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="osmo-title" value="大疆 Osmo 360 全景相机" style="text;html=1;strokeColor=none;fillColor=#F5F5F5;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#555555;rounded=1" parent="1" vertex="1">
-          <mxGeometry x="50" y="510" width="380" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="osmo-subtitle" value="全景视频采集（独立设备 / 详细接口待厂商资料确认）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontColor=#888888;fontStyle=2" parent="1" vertex="1">
-          <mxGeometry x="50" y="545" width="380" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="osmo-tbl-h1" value="Osmo 接口" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="60" y="570" width="100" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="osmo-tbl-h2" value="信号 / 协议" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="160" y="570" width="100" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="osmo-tbl-h3" value="连接到" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="260" y="570" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="osmo-r1c1" value="USB-C" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="60" y="596" width="100" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="osmo-r1c2" value="USB（视频/控制）&#xa;Type-C" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="160" y="596" width="100" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="osmo-r1c3" value="Jetson USB 3.0&#xa;（待确认）" style="text;html=1;strokeColor=#CCCCCC;fillColor=#E8F5E9;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="260" y="596" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="osmo-r2c1" value="自带电池" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="60" y="622" width="100" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="osmo-r2c2" value="Osmo 内置电池&#xa;或 USB-C 供电" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="160" y="622" width="100" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="osmo-r2c3" value="自供 / 12V BEC" style="text;html=1;strokeColor=#CCCCCC;fillColor=#E3F2FD;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="260" y="622" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="osmo-cable" value="● 配线说明：Osmo 360 是大疆消费级相机，通常自带电池，可选择独立工作（拍摄后导出）或 USB-C 接 Jetson 实时数据流；建议优先使用 SD 卡录制，飞行后导出，避免占用 Jetson USB 带宽" style="text;html=1;strokeColor=none;fillColor=#FFF9C4;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=10;fontColor=#5D4A0A;rounded=1" parent="1" vertex="1">
-          <mxGeometry x="60" y="658" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="card-mid360" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0277BD;arcSize=4;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1700" y="220" width="380" height="280" as="geometry" />
@@ -434,9 +392,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-hm30-tel1" value="MAVLink  GH1.25 4P" style="endArrow=classic;html=1;strokeColor=#7B3FA0;strokeWidth=2;dashed=1;exitX=1;exitY=0.55;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#7B3FA0;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-hm30" target="port-tel1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="e-mid360-eth" value="以太网 RJ45&amp;nbsp;" style="endArrow=classic;html=1;strokeColor=#2E8B57;strokeWidth=2;dashed=1;dashPattern=1 4;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#2E8B57;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="mid360-r3c1" target="port-rj45" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -445,8 +400,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-osmo-usb" value="USB-C  视频/控制&#xa;（待确认）" style="endArrow=classic;html=1;strokeColor=#0277BD;strokeWidth=2;dashed=1;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#0277BD;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-osmo" edge="1">
+        <mxCell id="e-osmo-usb" value="USB-C  视频/控制&#xa;（待确认）" style="endArrow=classic;html=1;strokeColor=#0277BD;strokeWidth=2;dashed=1;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#0277BD;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="629.9999999999995" as="sourcePoint" />
             <mxPoint x="965.0000000000091" y="714.0000000000005" as="targetPoint" />
             <Array as="points">
               <mxPoint x="860" y="630" />
