@@ -100,9 +100,6 @@
         <mxCell id="port-sbusout" value="SBUS OUT" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="830" y="846" width="80" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="port-tel3" value="TEL3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="1325" y="975" width="55" height="28" as="geometry" />
-        </mxCell>
         <mxCell id="port-iopwm" value="I/O PWM" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="600" y="1070" width="80" height="28" as="geometry" />
         </mxCell>
@@ -113,7 +110,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="port-tel1" value="TEL1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="1320" y="1015" width="55" height="28" as="geometry" />
+          <mxGeometry x="745" y="1042" width="55" height="28" as="geometry" />
         </mxCell>
         <mxCell id="card-hm30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0277BD;arcSize=4;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="60" y="120" width="380" height="280" as="geometry" />
