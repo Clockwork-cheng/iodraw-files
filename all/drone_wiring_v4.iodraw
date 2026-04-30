@@ -68,7 +68,7 @@
           <mxGeometry x="2015" y="174" width="340" height="20" as="geometry" />
         </mxCell>
         <mxCell id="baseboard-img" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;imageAspect=0;aspect=fixed;image=baseboard.png;" parent="1" vertex="1">
-          <mxGeometry x="950" y="380" width="500" height="700" as="geometry" />
+          <mxGeometry x="820" y="394" width="500" height="700" as="geometry" />
         </mxCell>
         <mxCell id="baseboard-label" value="Holybro Pixhawk Jetson Baseboard&#xa;（飞控 6X Pro + Jetson Orin NX 一体化载板）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#8B6914" parent="1" vertex="1">
           <mxGeometry x="950" y="340" width="500" height="40" as="geometry" />
