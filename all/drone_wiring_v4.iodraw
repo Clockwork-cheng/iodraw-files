@@ -429,9 +429,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="700" y="1020" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="490" y="1286" />
-              <mxPoint x="520" y="1286" />
-              <mxPoint x="520" y="1020" />
+              <mxPoint x="490" y="1019" />
+              <mxPoint x="520" y="1019" />
               <mxPoint x="530" y="1020" />
             </Array>
           </mxGeometry>
@@ -512,7 +511,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ubec-block" value="UBEC 12A&#xa;5.5V / 12A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="600" y="979" width="160" height="80" as="geometry" />
+          <mxGeometry x="650" y="979" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
