@@ -167,100 +167,100 @@
           <mxGeometry x="1110" y="10" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="card-siyi" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0277BD;arcSize=4;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="60" y="430" width="380" height="280" as="geometry" />
+          <mxGeometry x="660" y="-190" width="380" height="280" as="geometry" />
         </mxCell>
         <mxCell id="siyi-title" value="思翼 A8 mini 吊舱" style="text;html=1;strokeColor=none;fillColor=#E1F5FE;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#01579B;rounded=1" parent="1" vertex="1">
-          <mxGeometry x="60" y="430" width="380" height="32" as="geometry" />
+          <mxGeometry x="660" y="-190" width="380" height="32" as="geometry" />
         </mxCell>
         <mxCell id="siyi-subtitle" value="云台相机（视频流 + PWM 控制）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontColor=#666666;fontStyle=2" parent="1" vertex="1">
-          <mxGeometry x="60" y="465" width="380" height="20" as="geometry" />
+          <mxGeometry x="660" y="-155" width="380" height="20" as="geometry" />
         </mxCell>
         <mxCell id="siyi-tbl-h1" value="A8 接口" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="70" y="490" width="100" height="26" as="geometry" />
+          <mxGeometry x="670" y="-130" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-tbl-h2" value="信号 / 协议" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="170" y="490" width="100" height="26" as="geometry" />
+          <mxGeometry x="770" y="-130" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-tbl-h3" value="连接到载板" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="270" y="490" width="160" height="26" as="geometry" />
+          <mxGeometry x="870" y="-130" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r1c1" value="Ethernet" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="70" y="516" width="100" height="26" as="geometry" />
+          <mxGeometry x="670" y="-104" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r1c2" value="RTSP 视频流&#xa;RJ45" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="170" y="516" width="100" height="26" as="geometry" />
+          <mxGeometry x="770" y="-104" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r1c3" value="载板 ETH-P1" style="text;html=1;strokeColor=#CCCCCC;fillColor=#E8F5E9;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="270" y="516" width="160" height="26" as="geometry" />
+          <mxGeometry x="870" y="-104" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r2c1" value="S.Bus" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="70" y="542" width="100" height="26" as="geometry" />
+          <mxGeometry x="670" y="-78" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r2c2" value="云台控制&#xa;GH1.25 3P" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="170" y="542" width="100" height="26" as="geometry" />
+          <mxGeometry x="770" y="-78" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r2c3" value="飞控 SBUS OUT" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFDE7;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="270" y="542" width="160" height="26" as="geometry" />
+          <mxGeometry x="870" y="-78" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r3c1" value="UART" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="70" y="568" width="100" height="26" as="geometry" />
+          <mxGeometry x="670" y="-52" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r3c2" value="MAVLink (可选)&#xa;GH1.25 4P" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="170" y="568" width="100" height="26" as="geometry" />
+          <mxGeometry x="770" y="-52" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r3c3" value="飞控 TEL3 (可选)" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFDE7;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="270" y="568" width="160" height="26" as="geometry" />
+          <mxGeometry x="870" y="-52" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r4c1" value="DC IN" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="70" y="594" width="100" height="26" as="geometry" />
+          <mxGeometry x="670" y="-26" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r4c2" value="12V / 1A&#xa;XT30" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="170" y="594" width="100" height="26" as="geometry" />
+          <mxGeometry x="770" y="-26" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r4c3" value="12V BEC" style="text;html=1;strokeColor=#CCCCCC;fillColor=#E3F2FD;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="270" y="594" width="160" height="26" as="geometry" />
+          <mxGeometry x="870" y="-26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-cable" value="● 配线说明：A8 mini 视频流通过以太网走 ETH-P1（与 Mid-360 同网段）；云台姿态控制通过 SBUS 由飞控输出；DC 12V 由 12V BEC 模块供电" style="text;html=1;strokeColor=none;fillColor=#FFF9C4;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=10;fontColor=#5D4A0A;rounded=1" parent="1" vertex="1">
-          <mxGeometry x="70" y="630" width="360" height="70" as="geometry" />
+          <mxGeometry x="670" y="10" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="card-osmo" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;arcSize=4;strokeWidth=2;dashed=1" parent="1" vertex="1">
-          <mxGeometry x="60" y="740" width="380" height="240" as="geometry" />
+          <mxGeometry x="100" y="322" width="380" height="240" as="geometry" />
         </mxCell>
         <mxCell id="osmo-title" value="大疆 Osmo 360 全景相机" style="text;html=1;strokeColor=none;fillColor=#F5F5F5;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#555555;rounded=1" parent="1" vertex="1">
-          <mxGeometry x="60" y="740" width="380" height="32" as="geometry" />
+          <mxGeometry x="100" y="322" width="380" height="32" as="geometry" />
         </mxCell>
         <mxCell id="osmo-subtitle" value="全景视频采集（独立设备 / 详细接口待厂商资料确认）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontColor=#888888;fontStyle=2" parent="1" vertex="1">
-          <mxGeometry x="60" y="775" width="380" height="20" as="geometry" />
+          <mxGeometry x="100" y="357" width="380" height="20" as="geometry" />
         </mxCell>
         <mxCell id="osmo-tbl-h1" value="Osmo 接口" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="70" y="800" width="100" height="26" as="geometry" />
+          <mxGeometry x="110" y="382" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="osmo-tbl-h2" value="信号 / 协议" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="170" y="800" width="100" height="26" as="geometry" />
+          <mxGeometry x="210" y="382" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="osmo-tbl-h3" value="连接到" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="270" y="800" width="160" height="26" as="geometry" />
+          <mxGeometry x="310" y="382" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="osmo-r1c1" value="USB-C" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="70" y="826" width="100" height="26" as="geometry" />
+          <mxGeometry x="110" y="408" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="osmo-r1c2" value="USB（视频/控制）&#xa;Type-C" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="170" y="826" width="100" height="26" as="geometry" />
+          <mxGeometry x="210" y="408" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="osmo-r1c3" value="Jetson USB 3.0&#xa;（待确认）" style="text;html=1;strokeColor=#CCCCCC;fillColor=#E8F5E9;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="270" y="826" width="160" height="26" as="geometry" />
+          <mxGeometry x="310" y="408" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="osmo-r2c1" value="自带电池" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="70" y="852" width="100" height="26" as="geometry" />
+          <mxGeometry x="110" y="434" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="osmo-r2c2" value="Osmo 内置电池&#xa;或 USB-C 供电" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="170" y="852" width="100" height="26" as="geometry" />
+          <mxGeometry x="210" y="434" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="osmo-r2c3" value="自供 / 12V BEC" style="text;html=1;strokeColor=#CCCCCC;fillColor=#E3F2FD;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="270" y="852" width="160" height="26" as="geometry" />
+          <mxGeometry x="310" y="434" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="osmo-cable" value="● 配线说明：Osmo 360 是大疆消费级相机，通常自带电池，可选择独立工作（拍摄后导出）或 USB-C 接 Jetson 实时数据流；建议优先使用 SD 卡录制，飞行后导出，避免占用 Jetson USB 带宽" style="text;html=1;strokeColor=none;fillColor=#FFF9C4;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=10;fontColor=#5D4A0A;rounded=1" parent="1" vertex="1">
-          <mxGeometry x="70" y="888" width="360" height="80" as="geometry" />
+          <mxGeometry x="110" y="470" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="card-mid360" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0277BD;arcSize=4;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1700" y="220" width="380" height="280" as="geometry" />
@@ -329,49 +329,49 @@
           <mxGeometry x="1710" y="442" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="card-pdb" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;arcSize=4;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="1700" y="530" width="380" height="180" as="geometry" />
+          <mxGeometry x="150" y="770" width="380" height="180" as="geometry" />
         </mxCell>
         <mxCell id="pdb-title" value="电源模块 Holybro PM02D" style="text;html=1;strokeColor=none;fillColor=#E3F2FD;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#0D47A1;rounded=1" parent="1" vertex="1">
-          <mxGeometry x="1700" y="530" width="380" height="32" as="geometry" />
+          <mxGeometry x="150" y="770" width="380" height="32" as="geometry" />
         </mxCell>
         <mxCell id="pdb-subtitle" value="飞控供电 + 电流电压采样（2-6S 通用）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontColor=#666666;fontStyle=2" parent="1" vertex="1">
-          <mxGeometry x="1700" y="565" width="380" height="20" as="geometry" />
+          <mxGeometry x="150" y="805" width="380" height="20" as="geometry" />
         </mxCell>
         <mxCell id="pdb-tbl-h1" value="PM02D 接口" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1710" y="590" width="110" height="26" as="geometry" />
+          <mxGeometry x="160" y="830" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-tbl-h2" value="信号 / 接头" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1820" y="590" width="100" height="26" as="geometry" />
+          <mxGeometry x="270" y="830" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-tbl-h3" value="连接到" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1920" y="590" width="150" height="26" as="geometry" />
+          <mxGeometry x="370" y="830" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r1c1" value="主电输入" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1710" y="616" width="110" height="26" as="geometry" />
+          <mxGeometry x="160" y="856" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r1c2" value="14.8V 主电&#xa;XT60" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1820" y="616" width="100" height="26" as="geometry" />
+          <mxGeometry x="270" y="856" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r1c3" value="并联器 输出" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFEBEE;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1920" y="616" width="150" height="26" as="geometry" />
+          <mxGeometry x="370" y="856" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r2c1" value="飞控供电+采样" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1710" y="642" width="110" height="26" as="geometry" />
+          <mxGeometry x="160" y="882" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r2c2" value="GH 6P&#xa;CLIK-Mate" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1820" y="642" width="100" height="26" as="geometry" />
+          <mxGeometry x="270" y="882" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r2c3" value="载板 POWER1" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFDE7;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1920" y="642" width="150" height="26" as="geometry" />
+          <mxGeometry x="370" y="882" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r3c1" value="主电出（去 ESC）" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1710" y="668" width="110" height="26" as="geometry" />
+          <mxGeometry x="160" y="908" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r3c2" value="14.8V 转接&#xa;XT60" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="1820" y="668" width="100" height="26" as="geometry" />
+          <mxGeometry x="270" y="908" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r3c3" value="（直接从并联器&#xa;另出一路给 ESC）" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#888888" parent="1" vertex="1">
-          <mxGeometry x="1920" y="668" width="150" height="26" as="geometry" />
+          <mxGeometry x="370" y="908" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="card-ubec" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E65100;arcSize=4;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1700" y="730" width="380" height="200" as="geometry" />
@@ -470,14 +470,6 @@
         </mxCell>
         <mxCell id="e-osmo-usb" value="USB-C  视频/控制&#xa;（待确认）" style="endArrow=classic;html=1;strokeColor=#0277BD;strokeWidth=2;dashed=1;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#0277BD;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-osmo" target="port-orinusb2" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e-bec-siyi" value="12V/1A&#xa;XT30" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.85;entryDx=0;entryDy=0;fontSize=10;fontColor=#1F6FB2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="bec12-block" target="card-siyi" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="40" y="1280" />
-              <mxPoint x="40" y="668" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="e-bec-mid360" value="12V/1.5A  XT30&#xa;Mid-360 独立供电" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.85;entryDx=0;entryDy=0;fontSize=10;fontColor=#1F6FB2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="bec12-block" target="card-mid360" edge="1">
           <mxGeometry relative="1" as="geometry">
