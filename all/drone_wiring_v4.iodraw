@@ -68,7 +68,7 @@
           <mxGeometry x="2015" y="174" width="340" height="20" as="geometry" />
         </mxCell>
         <mxCell id="baseboard-img" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;imageAspect=0;aspect=fixed;image=baseboard.png;" parent="1" vertex="1">
-          <mxGeometry x="820" y="408" width="500" height="700" as="geometry" />
+          <mxGeometry x="960" y="408" width="360" height="504" as="geometry" />
         </mxCell>
         <mxCell id="baseboard-label" value="Holybro Pixhawk Jetson Baseboard&#xa;（飞控 6X Pro + Jetson Orin NX 一体化载板）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#8B6914" parent="1" vertex="1">
           <mxGeometry x="950" y="340" width="500" height="40" as="geometry" />
@@ -79,15 +79,6 @@
         <mxCell id="port-power2" value="POWER2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1270" y="1031" width="70" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="port-orinusbc" value="Orin USB-C" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="980" y="395" width="80" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="port-orinusb2" value="Orin USB2.0" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="965" y="700" width="90" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="port-usb3" value="USB 3.0 ×2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="965" y="640" width="90" height="28" as="geometry" />
-        </mxCell>
         <mxCell id="port-rj45" value="ETH-P1 (RJ45)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;strokeWidth=2;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1110" y="668" width="90" height="60" as="geometry" />
         </mxCell>
@@ -95,7 +86,7 @@
           <mxGeometry x="1460" y="492" width="60" height="28" as="geometry" />
         </mxCell>
         <mxCell id="port-sbusout" value="SBUS OUT" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="810" y="930" width="80" height="28" as="geometry" />
+          <mxGeometry x="770" y="340" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="port-iopwm" value="I/O PWM" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1390" y="453" width="80" height="28" as="geometry" />
@@ -453,8 +444,10 @@
         <mxCell id="e-hm30-tel1" value="MAVLink  GH1.25 4P" style="endArrow=classic;html=1;strokeColor=#7B3FA0;strokeWidth=2;dashed=1;exitX=1;exitY=0.55;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#7B3FA0;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-hm30" target="port-tel1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e-hm30-usb" value="USB-A 视频源" style="endArrow=classic;html=1;strokeColor=#0277BD;strokeWidth=2;dashed=1;dashPattern=4 4;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#0277BD;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-hm30" target="port-usb3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-hm30-usb" value="USB-A 视频源" style="endArrow=classic;html=1;strokeColor=#0277BD;strokeWidth=2;dashed=1;dashPattern=4 4;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#0277BD;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-hm30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="965.0000000000091" y="654" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-siyi-eth" value="以太网 RJ45  视频流" style="endArrow=classic;html=1;strokeColor=#2E8B57;strokeWidth=2;dashed=1;dashPattern=1 4;exitX=1;exitY=0.4;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#2E8B57;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-siyi" target="port-rj45" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -465,8 +458,10 @@
         <mxCell id="e-mid360-eth" value="以太网 RJ45 (T568B)&#xa;点云数据" style="endArrow=classic;html=1;strokeColor=#2E8B57;strokeWidth=2;dashed=1;dashPattern=1 4;exitX=0;exitY=0.7;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#2E8B57;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-mid360" target="port-rj45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e-osmo-usb" value="USB-C  视频/控制&#xa;（待确认）" style="endArrow=classic;html=1;strokeColor=#0277BD;strokeWidth=2;dashed=1;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#0277BD;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-osmo" target="port-orinusb2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-osmo-usb" value="USB-C  视频/控制&#xa;（待确认）" style="endArrow=classic;html=1;strokeColor=#0277BD;strokeWidth=2;dashed=1;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#0277BD;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-osmo" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="965.0000000000091" y="714.0000000000005" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-bec-mid360" value="12V/1.5A  XT30&#xa;Mid-360 独立供电" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.85;entryDx=0;entryDy=0;fontSize=10;fontColor=#1F6FB2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="bec12-block" target="card-mid360" edge="1">
           <mxGeometry relative="1" as="geometry">
