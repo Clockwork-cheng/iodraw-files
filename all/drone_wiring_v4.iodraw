@@ -434,14 +434,20 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e-pdb-pwr1" value="GH 6P CLIK-Mate&#xa;飞控供电+采样" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#1F6FB2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="pdb-block" target="port-power1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-0.2164" y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="1110" />
+              <mxPoint x="1385" y="1110" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="port-jetson-pwr" value="Jetson PWR" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#C62828;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1150" y="1031" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="e-ubec-jetson" value="XT30  5.5V/12A&#xa;Jetson 主供电" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#1F6FB2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="ubec-block" target="port-jetson-pwr" edge="1">
-          <mxGeometry x="0.0545" y="-18" relative="1" as="geometry">
-            <mxPoint x="-8" y="16" as="offset" />
+          <mxGeometry x="-0.4475" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-hm30-rcin" value="SBUS  GH1.25 3P" style="endArrow=classic;html=1;strokeColor=#7B3FA0;strokeWidth=2;dashed=1;exitX=1;exitY=0.4;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#7B3FA0;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-hm30" target="port-rcin" edge="1">
