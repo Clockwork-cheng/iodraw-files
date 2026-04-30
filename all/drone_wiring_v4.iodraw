@@ -168,17 +168,11 @@
         <mxCell id="siyi-tbl-h2" value="信号 / 协议" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="770" y="-130" width="100" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="siyi-tbl-h3" value="连接到载板" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="870" y="-130" width="160" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="siyi-r1c1" value="Ethernet" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
           <mxGeometry x="670" y="-104" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r1c2" value="RTSP 视频流&#xa;RJ45" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
           <mxGeometry x="770" y="-104" width="100" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="siyi-r1c3" value="载板 ETH-P1" style="text;html=1;strokeColor=#CCCCCC;fillColor=#E8F5E9;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="870" y="-104" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="siyi-r2c1" value="S.Bus" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
           <mxGeometry x="670" y="-78" width="100" height="26" as="geometry" />
