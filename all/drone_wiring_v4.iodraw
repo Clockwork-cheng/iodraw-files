@@ -425,14 +425,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-par-ubec" value="XT30&#xa;14.8V → UBEC" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;fontColor=#C0392B;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdb-r1c3" target="ubec-block" edge="1">
+        <mxCell id="e-par-ubec" value="XT30&#xa;14.8V → UBEC" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;fontColor=#C0392B;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdb-r1c3" target="ubec-block" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="700" y="1020" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="490" y="1019" />
-              <mxPoint x="520" y="1019" />
-              <mxPoint x="530" y="1020" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="e-par-bec12" value="XT30&#xa;14.8V → BEC" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=3;exitX=1;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B;edgeStyle=orthogonalEdgeStyle;" parent="1" source="parallel" target="bec12-block" edge="1">
@@ -511,7 +506,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ubec-block" value="UBEC 12A&#xa;5.5V / 12A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="650" y="979" width="160" height="80" as="geometry" />
+          <mxGeometry x="670" y="978" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
