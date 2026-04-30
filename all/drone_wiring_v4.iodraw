@@ -400,7 +400,7 @@
           <mxGeometry x="540" y="1390" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bec12-block" value="12V BEC&#xa;给外设供电" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="2060" y="1380" width="160" height="80" as="geometry" />
+          <mxGeometry x="2060" y="1410" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="e-bat1-par" value="XT60&#xa;10AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B" parent="1" source="bat1" target="parallel" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -475,6 +475,11 @@
         <mxCell id="e-osmo-usb" value="USB-C  视频/控制&#xa;（待确认）" style="endArrow=classic;html=1;strokeColor=#0277BD;strokeWidth=2;dashed=1;dashPattern=4 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#0277BD;edgeStyle=orthogonalEdgeStyle;fontStyle=1" parent="1" source="card-osmo" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="965.0000000000091" y="714.0000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="630" />
+              <mxPoint x="966" y="630" />
+              <mxPoint x="966" y="714" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="e-bec-mid360" value="12V/1.5A  XT30&#xa;Mid-360 独立供电" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.85;entryDx=0;entryDy=0;fontSize=10;fontColor=#1F6FB2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="bec12-block" target="card-mid360" edge="1">
