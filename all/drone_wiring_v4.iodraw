@@ -316,49 +316,49 @@
           <mxGeometry x="1710" y="442" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="card-pdb" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;arcSize=4;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="135" y="870" width="380" height="180" as="geometry" />
+          <mxGeometry x="120" y="918" width="380" height="180" as="geometry" />
         </mxCell>
         <mxCell id="pdb-title" value="电源模块 Holybro PM02D" style="text;html=1;strokeColor=none;fillColor=#E3F2FD;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontColor=#0D47A1;rounded=1" parent="1" vertex="1">
-          <mxGeometry x="135" y="870" width="380" height="32" as="geometry" />
+          <mxGeometry x="120" y="918" width="380" height="32" as="geometry" />
         </mxCell>
         <mxCell id="pdb-subtitle" value="飞控供电 + 电流电压采样（2-6S 通用）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontColor=#666666;fontStyle=2" parent="1" vertex="1">
-          <mxGeometry x="135" y="905" width="380" height="20" as="geometry" />
+          <mxGeometry x="120" y="953" width="380" height="20" as="geometry" />
         </mxCell>
         <mxCell id="pdb-tbl-h1" value="PM02D 接口" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="145" y="930" width="110" height="26" as="geometry" />
+          <mxGeometry x="130" y="978" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-tbl-h2" value="信号 / 接头" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="255" y="930" width="100" height="26" as="geometry" />
+          <mxGeometry x="240" y="978" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-tbl-h3" value="连接到" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="355" y="930" width="150" height="26" as="geometry" />
+          <mxGeometry x="340" y="978" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r1c1" value="主电输入" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="145" y="956" width="110" height="26" as="geometry" />
+          <mxGeometry x="130" y="1004" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r1c2" value="14.8V 主电&#xa;XT60" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="255" y="956" width="100" height="26" as="geometry" />
+          <mxGeometry x="240" y="1004" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r1c3" value="并联器 输出" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFEBEE;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="355" y="956" width="150" height="26" as="geometry" />
+          <mxGeometry x="340" y="1004" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r2c1" value="飞控供电+采样" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="145" y="982" width="110" height="26" as="geometry" />
+          <mxGeometry x="130" y="1030" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r2c2" value="GH 6P&#xa;CLIK-Mate" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="255" y="982" width="100" height="26" as="geometry" />
+          <mxGeometry x="240" y="1030" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r2c3" value="载板 POWER1" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFDE7;align=center;verticalAlign=middle;fontSize=10;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="355" y="982" width="150" height="26" as="geometry" />
+          <mxGeometry x="340" y="1030" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r3c1" value="主电出（去 ESC）" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="145" y="1008" width="110" height="26" as="geometry" />
+          <mxGeometry x="130" y="1056" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r3c2" value="14.8V 转接&#xa;XT60" style="text;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10" parent="1" vertex="1">
-          <mxGeometry x="255" y="1008" width="100" height="26" as="geometry" />
+          <mxGeometry x="240" y="1056" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pdb-r3c3" value="（直接从并联器&#xa;另出一路给 ESC）" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#888888" parent="1" vertex="1">
-          <mxGeometry x="355" y="1008" width="150" height="26" as="geometry" />
+          <mxGeometry x="340" y="1056" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="card-ubec" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E65100;arcSize=4;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1700" y="730" width="380" height="200" as="geometry" />
@@ -381,7 +381,7 @@
         <mxCell id="bat2" value="电池 2&#xa;格氏 5300mAh&#xa;30C / 4S&#xa;14.8V" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#555555;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="320" y="1380" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="parallel" value="并联器&#xa;（双电池均流防倒灌）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
+        <mxCell id="parallel" value="并联器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="200" y="1230" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="esc" value="ESC ×8&#xa;（8 路电调）&#xa;4S 输入 / PWM 控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
