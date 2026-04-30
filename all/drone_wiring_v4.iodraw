@@ -376,13 +376,16 @@
           <mxGeometry x="60" y="1140" width="2310" height="380" as="geometry" />
         </mxCell>
         <mxCell id="bat1" value="电池 1&#xa;格氏 5300mAh&#xa;30C / 4S&#xa;14.8V" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#555555;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="120" y="1380" width="160" height="100" as="geometry" />
+          <mxGeometry x="60" y="1380" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bat2" value="电池 2&#xa;格氏 5300mAh&#xa;30C / 4S&#xa;14.8V" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#555555;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="320" y="1380" width="160" height="100" as="geometry" />
+          <mxGeometry x="260" y="1380" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rQu_LLziQFWWLN30Y0RU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="parallel" target="pdb-r1c1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="parallel" value="并联器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="200" y="1230" width="200" height="80" as="geometry" />
+          <mxGeometry x="130" y="1230" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="esc" value="ESC ×8&#xa;（8 路电调）&#xa;4S 输入 / PWM 控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="560" y="1230" width="200" height="80" as="geometry" />
