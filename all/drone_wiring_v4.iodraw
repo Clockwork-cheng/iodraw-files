@@ -95,10 +95,10 @@
           <mxGeometry x="1255" y="850" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="port-rcin" value="RC IN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="1000" y="968" width="60" height="28" as="geometry" />
+          <mxGeometry x="760" y="930" width="60" height="28" as="geometry" />
         </mxCell>
         <mxCell id="port-sbusout" value="SBUS OUT" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="1065" y="975" width="80" height="28" as="geometry" />
+          <mxGeometry x="830" y="846" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="port-can1" value="CAN1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1145" y="975" width="55" height="28" as="geometry" />
@@ -113,7 +113,7 @@
           <mxGeometry x="1325" y="975" width="55" height="28" as="geometry" />
         </mxCell>
         <mxCell id="port-iopwm" value="I/O PWM" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="1000" y="1015" width="80" height="28" as="geometry" />
+          <mxGeometry x="600" y="1070" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="port-fmupwm" value="FMU PWM" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="570" y="1003" width="85" height="28" as="geometry" />
