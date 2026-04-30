@@ -89,7 +89,7 @@
           <mxGeometry x="965" y="640" width="90" height="28" as="geometry" />
         </mxCell>
         <mxCell id="port-rj45" value="ETH-P1 (RJ45)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;strokeWidth=2;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="640" width="90" height="60" as="geometry" />
+          <mxGeometry x="1110" y="668" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="port-rcin" value="RC IN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="760" y="930" width="60" height="28" as="geometry" />
@@ -410,7 +410,7 @@
           <mxGeometry x="1110" y="1230" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bec12-block" value="12V BEC&#xa;给外设供电" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="1460" y="1230" width="160" height="80" as="geometry" />
+          <mxGeometry x="1460" y="1330" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="e-bat1-par" value="XT60&#xa;10AWG" style="endArrow=classic;html=1;strokeColor=#C0392B;strokeWidth=4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#C0392B" parent="1" source="bat1" target="parallel" edge="1">
           <mxGeometry relative="1" as="geometry" />
