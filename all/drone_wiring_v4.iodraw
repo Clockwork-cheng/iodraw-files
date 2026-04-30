@@ -449,9 +449,8 @@
         <mxCell id="e-ubec-jetson" value="XT30  5.5V/12A&#xa;Jetson 主供电" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#1F6FB2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="ubec-block" target="port-jetson-pwr" edge="1">
           <mxGeometry x="-0.4475" y="-10" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="990" y="1017" />
-              <mxPoint x="990" y="1020" />
-              <mxPoint x="1080" y="1020" />
+              <mxPoint x="830" y="1017" />
+              <mxPoint x="1080" y="1017" />
               <mxPoint x="1080" y="1045" />
             </Array>
             <mxPoint as="offset" />
@@ -517,7 +516,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ubec-block" value="UBEC 12A&#xa;5.5V / 12A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=12;fontStyle=1;arcSize=12;verticalAlign=middle;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="670" y="977" width="160" height="80" as="geometry" />
+          <mxGeometry x="670" y="973" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
