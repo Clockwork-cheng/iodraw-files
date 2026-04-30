@@ -91,9 +91,6 @@
         <mxCell id="port-rj45" value="ETH-P1 (RJ45)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1340" y="730" width="110" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="port-fmuusb" value="FMU USB" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="1255" y="850" width="80" height="28" as="geometry" />
-        </mxCell>
         <mxCell id="port-rcin" value="RC IN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#B8860B;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="760" y="930" width="60" height="28" as="geometry" />
         </mxCell>
@@ -440,7 +437,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="port-jetson-pwr" value="Jetson PWR" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#C62828;fontSize=10;fontStyle=1;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="1220" y="1080" width="80" height="28" as="geometry" />
+          <mxGeometry x="1120" y="1052" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="e-ubec-jetson" value="XT30  5.5V/12A&#xa;Jetson 主供电" style="endArrow=classic;html=1;strokeColor=#1F6FB2;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#1F6FB2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="ubec-block" target="port-jetson-pwr" edge="1">
           <mxGeometry relative="1" as="geometry" />
