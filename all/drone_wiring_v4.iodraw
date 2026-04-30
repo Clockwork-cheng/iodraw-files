@@ -450,9 +450,9 @@
           <mxGeometry x="-0.4475" y="-10" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="990" y="1017" />
-              <mxPoint x="990" y="1090" />
-              <mxPoint x="1190" y="1090" />
-              <mxPoint x="1190" y="1045" />
+              <mxPoint x="990" y="1020" />
+              <mxPoint x="1080" y="1020" />
+              <mxPoint x="1080" y="1045" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
