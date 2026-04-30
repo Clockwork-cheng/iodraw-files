@@ -507,6 +507,9 @@
         <mxCell id="note-content" value="【接口对应汇总】（外设 → 载板接口）&#xa;　• HM30 → RC IN (SBUS) + TEL1 (MAVLink) + USB3.0 (视频源) + 12V BEC (供电)&#xa;　• A8 mini → ETH-P1 (RTSP 视频流) + SBUS OUT (云台控制) + 12V BEC (供电)&#xa;　• Mid-360 → ETH-P1 (T568B 端接) + 12V BEC 独立供电（注意不与飞控共地）&#xa;　• Osmo 360 → Orin USB 2.0 / USB 3.0 (USB-C 线，待确认是否实时数据)&#xa;　• PM02D → POWER1 (GH 6P，飞控供电+电流采样)&#xa;　• UBEC 12A → Jetson PWR (XT30，5.5V/12A 主供电)&#xa;　• 飞控 I/O PWM (M1~M8) → 8 路 ESC (PWM 信号线)&#xa;&#xa;【关键提示】① 飞控↔Jetson 通过载板内部 UART(TELEM2↔THS1) + 板载以太网交换机互联，无需外部接线  ② ETH-P1 是板载交换机引出口，A8/Mid-360 同时接此处可与 Jetson 同网段通信  ③ 4S 系统下板载 BEC 仍可承载 Jetson 但建议外接 UBEC 12A 提供冗余&#xa;【待确认】① ESC 型号与最大持续电流（决定 10AWG 主线是否足够）  ② Osmo 360 接入方式（USB 实时 vs SD 卡录制后导出）  ③ A8 mini 实际供电电压规格（部分型号需 14V，需查 datasheet）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#5D4A0A" parent="1" vertex="1">
           <mxGeometry x="75" y="1577" width="2280" height="125" as="geometry" />
         </mxCell>
+        <mxCell id="rQu_LLziQFWWLN30Y0RU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hm30-title" target="hm30-title">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
