@@ -1,0 +1,1313 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="VgK42Zv4APROC4Qe-Iro" name="第 1 页">
+    <mxGraphModel dx="1673" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2900" pageHeight="2500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="八旋翼无人机接线总图（接口表格式 v6）· 2026-06-12" style="text;html=1;fontSize=20;fontStyle=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="700" width="900" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="&lt;b&gt;图例&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#82b366&quot;&gt;■&lt;/font&gt; 绿色 = 电源输入接口&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#b85450&quot;&gt;■&lt;/font&gt; 红色 = 电源输出接口&lt;br&gt;─ 实线 = 电源线&amp;nbsp;&amp;nbsp;┄ 虚线 = 信号/数据线&lt;br&gt;线上标注 = 线规 · 长度（依据《无人机线材清单_v1》）&lt;br&gt;⚠ ESC→电机三相线标 20AWG 100mm（实测）；清单 P-07 原为 14AWG 200mm，待统一&lt;br&gt;接头公母按实物：供电输出侧=母头（防短路）/ 受电输入侧=公头；BIFRC 分电板实物已确认（XT90 公头入 · 4×XT60 母头出）" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="720" width="560" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="bat1" value="电池 1（格氏 4S 5300mAh）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="1120" width="240" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="bat1_out" value="电池输出" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="bat1" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bat1_out_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bat1_out" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bat1_out_c1" value="XT60（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bat1_out" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bat1_out_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bat1_out" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bat1_out_c3" value="14.8V（红+/黑-）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bat1_out" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bat2" value="电池 2（格氏 4S 5300mAh）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="1290" width="240" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="bat2_out" value="电池输出" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="bat2" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bat2_out_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bat2_out" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bat2_out_c1" value="XT60（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bat2_out" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bat2_out_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bat2_out" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bat2_out_c3" value="14.8V（红+/黑-）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bat2_out" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="par" value="双电池并联器" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1140" width="240" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="par_in1" value="电池 1 输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="par" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="par_in1_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="par_in1" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="par_in1_c1" value="XT60（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="par_in1" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="par_in1_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="par_in1" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="par_in1_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="par_in1" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="par_in2" value="电池 2 输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="par" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="par_in2_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="par_in2" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="par_in2_c1" value="XT60（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="par_in2" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="par_in2_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="par_in2" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="par_in2_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="par_in2" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="par_out" value="汇流输出" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="par" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="par_out_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="par_out" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="par_out_c1" value="XT90（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="par_out" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="par_out_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="par_out" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="par_out_c3" value="14.8V（红+/黑-）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="par_out" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl" value="主电分线器" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="1120" width="240" height="525" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_in" value="主电输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="spl" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_in_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="spl_in" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_in_c1" value="XT90（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="spl_in" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_in_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="spl_in" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_in_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="spl_in" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o1" value="输出1 → PDB 板 1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="spl" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o1_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o1" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o1_c1" value="XT90（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o1" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o1_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o1" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o1_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o1" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o2" value="输出2 → PDB 板 2" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="spl" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o2_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o2" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o2_c1" value="XT90（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o2" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o2_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o2" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o2_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o2" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o3" value="输出3 → PM02D" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="spl" vertex="1">
+          <mxGeometry x="15" y="276" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o3_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o3" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o3_c1" value="XT60（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o3" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o3_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o3" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o3_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o3" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o4" value="输出4 → UBEC" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="spl" vertex="1">
+          <mxGeometry x="15" y="358" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o4_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o4" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o4_c1" value="XT30（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o4" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o4_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o4" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o4_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o4" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o5" value="输出5 → 12V BEC" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="spl" vertex="1">
+          <mxGeometry x="15" y="440" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o5_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o5" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o5_c1" value="XT30（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o5" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o5_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o5" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="spl_o5_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="spl_o5" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba" value="PDB 分电板 1（BIFRC v2.0）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="60" width="240" height="443" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o1" value="分电板电源输出 1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="pdba" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o1_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o1" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o1_c1" value="XT60（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o1" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o1_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o1" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o1_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o1" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o2" value="分电板电源输出 2" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="pdba" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o2_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o2" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o2_c1" value="XT60（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o2" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o2_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o2" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o2_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o2" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o3" value="分电板电源输出 3" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="pdba" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o3_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o3" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o3_c1" value="XT60（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o3" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o3_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o3" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o3_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o3" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o4" value="分电板电源输出 4" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="pdba" vertex="1">
+          <mxGeometry x="15" y="276" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o4_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o4" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o4_c1" value="XT60（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o4" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o4_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o4" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_o4_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdba_o4" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_in" value="分电板电源输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="pdba" vertex="1">
+          <mxGeometry x="15" y="358" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_in_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="pdba_in" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_in_c1" value="XT90（公头·板载）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="pdba_in" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_in_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="pdba_in" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdba_in_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="pdba_in" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb" value="PDB 分电板 2（BIFRC v2.0）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="1760" width="240" height="443" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o1" value="分电板电源输出 1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="pdbb" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o1_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o1" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o1_c1" value="XT60（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o1" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o1_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o1" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o1_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o1" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o2" value="分电板电源输出 2" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="pdbb" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o2_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o2" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o2_c1" value="XT60（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o2" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o2_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o2" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o2_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o2" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o3" value="分电板电源输出 3" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="pdbb" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o3_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o3" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o3_c1" value="XT60（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o3" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o3_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o3" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o3_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o3" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o4" value="分电板电源输出 4" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="pdbb" vertex="1">
+          <mxGeometry x="15" y="276" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o4_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o4" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o4_c1" value="XT60（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o4" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o4_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o4" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_o4_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdbb_o4" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_in" value="分电板电源输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="pdbb" vertex="1">
+          <mxGeometry x="15" y="358" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_in_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="pdbb_in" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_in_c1" value="XT90（公头·板载）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="pdbb_in" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_in_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="pdbb_in" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pdbb_in_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="pdbb_in" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1" value="电调 ESC#1" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="60" width="240" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_pwr" value="电调电源输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="esc1" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_pwr_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc1_pwr" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_pwr_c1" value="XT60（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc1_pwr" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_pwr_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc1_pwr" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_pwr_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc1_pwr" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_sig" value="电调信号线输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc1" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_sig_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc1_sig" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_sig_c1" value="杜邦 2.54（3P）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc1_sig" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_sig_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc1_sig" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_sig_c3" value="PWM 3.3V（M1 通道）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc1_sig" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc1" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc1_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc1_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc1_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc1_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc1_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" value="电机 M1（X2208 KV1100）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="240" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m1_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="m1" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m1_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m1_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m1_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m1_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m1_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m1_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m1_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m1_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2" value="电调 ESC#2" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="420" width="240" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_pwr" value="电调电源输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="esc2" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_pwr_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc2_pwr" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_pwr_c1" value="XT60（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc2_pwr" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_pwr_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc2_pwr" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_pwr_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc2_pwr" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_sig" value="电调信号线输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc2" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_sig_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc2_sig" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_sig_c1" value="杜邦 2.54（3P）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc2_sig" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_sig_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc2_sig" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_sig_c3" value="PWM 3.3V（M2 通道）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc2_sig" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc2" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc2_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc2_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc2_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc2_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc2_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" value="电机 M2（X2208 KV1100）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="440" width="240" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m2_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="m2" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m2_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m2_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m2_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m2_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m2_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m2_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m2_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m2_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3" value="电调 ESC#3" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2330" y="60" width="240" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_pwr" value="电调电源输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="esc3" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_pwr_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc3_pwr" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_pwr_c1" value="XT60（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc3_pwr" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_pwr_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc3_pwr" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_pwr_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc3_pwr" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_sig" value="电调信号线输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc3" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_sig_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc3_sig" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_sig_c1" value="杜邦 2.54（3P）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc3_sig" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_sig_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc3_sig" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_sig_c3" value="PWM 3.3V（M3 通道）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc3_sig" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc3" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc3_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc3_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc3_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc3_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc3_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" value="电机 M3（X2208 KV1100）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2620" y="80" width="240" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m3_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="m3" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m3_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m3_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m3_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m3_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m3_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m3_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m3_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m3_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4" value="电调 ESC#4" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2330" y="420" width="240" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_pwr" value="电调电源输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="esc4" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_pwr_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc4_pwr" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_pwr_c1" value="XT60（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc4_pwr" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_pwr_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc4_pwr" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_pwr_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc4_pwr" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_sig" value="电调信号线输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc4" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_sig_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc4_sig" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_sig_c1" value="杜邦 2.54（3P）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc4_sig" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_sig_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc4_sig" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_sig_c3" value="PWM 3.3V（M4 通道）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc4_sig" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc4" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc4_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc4_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc4_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc4_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc4_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m4" value="电机 M4（X2208 KV1100）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2620" y="440" width="240" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m4_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="m4" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m4_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m4_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m4_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m4_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m4_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m4_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m4_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m4_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5" value="电调 ESC#5" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="1760" width="240" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_pwr" value="电调电源输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="esc5" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_pwr_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc5_pwr" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_pwr_c1" value="XT60（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc5_pwr" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_pwr_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc5_pwr" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_pwr_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc5_pwr" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_sig" value="电调信号线输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc5" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_sig_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc5_sig" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_sig_c1" value="杜邦 2.54（3P）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc5_sig" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_sig_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc5_sig" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_sig_c3" value="PWM 3.3V（M5 通道）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc5_sig" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc5" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc5_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc5_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc5_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc5_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc5_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m5" value="电机 M5（X2208 KV1100）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1780" width="240" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m5_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="m5" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m5_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m5_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m5_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m5_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m5_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m5_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m5_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m5_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6" value="电调 ESC#6" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="2120" width="240" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_pwr" value="电调电源输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="esc6" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_pwr_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc6_pwr" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_pwr_c1" value="XT60（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc6_pwr" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_pwr_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc6_pwr" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_pwr_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc6_pwr" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_sig" value="电调信号线输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc6" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_sig_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc6_sig" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_sig_c1" value="杜邦 2.54（3P）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc6_sig" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_sig_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc6_sig" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_sig_c3" value="PWM 3.3V（M6 通道）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc6_sig" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc6" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc6_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc6_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc6_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc6_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc6_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m6" value="电机 M6（X2208 KV1100）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2140" width="240" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m6_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="m6" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m6_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m6_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m6_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m6_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m6_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m6_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m6_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m6_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7" value="电调 ESC#7" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2330" y="1760" width="240" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_pwr" value="电调电源输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="esc7" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_pwr_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc7_pwr" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_pwr_c1" value="XT60（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc7_pwr" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_pwr_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc7_pwr" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_pwr_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc7_pwr" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_sig" value="电调信号线输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc7" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_sig_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc7_sig" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_sig_c1" value="杜邦 2.54（3P）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc7_sig" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_sig_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc7_sig" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_sig_c3" value="PWM 3.3V（M7 通道）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc7_sig" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc7" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc7_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc7_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc7_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc7_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc7_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m7" value="电机 M7（X2208 KV1100）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2620" y="1780" width="240" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m7_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="m7" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m7_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m7_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m7_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m7_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m7_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m7_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m7_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m7_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8" value="电调 ESC#8" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2330" y="2120" width="240" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_pwr" value="电调电源输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="esc8" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_pwr_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc8_pwr" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_pwr_c1" value="XT60（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc8_pwr" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_pwr_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc8_pwr" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_pwr_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="esc8_pwr" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_sig" value="电调信号线输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc8" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_sig_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc8_sig" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_sig_c1" value="杜邦 2.54（3P）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc8_sig" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_sig_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc8_sig" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_sig_c3" value="PWM 3.3V（M8 通道）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc8_sig" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="esc8" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc8_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc8_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc8_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="esc8_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="esc8_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m8" value="电机 M8（X2208 KV1100）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2620" y="2140" width="240" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m8_mot" value="电调电机线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="m8" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8_mot_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m8_mot" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m8_mot_c1" value="香蕉头 3.5mm" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m8_mot" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m8_mot_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m8_mot" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="m8_mot_c3" value="UVW（三相）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="m8_mot" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ubec" value="UBEC 12A（Jetson 供电）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="1120" width="240" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="ubec_in" value="主电输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="ubec" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ubec_in_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="ubec_in" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ubec_in_c1" value="XT30（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="ubec_in" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ubec_in_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="ubec_in" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ubec_in_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="ubec_in" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ubec_out" value="12V 输出" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="ubec" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ubec_out_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="ubec_out" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ubec_out_c1" value="XT30（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="ubec_out" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ubec_out_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="ubec_out" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ubec_out_c3" value="12V / 12A" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="ubec_out" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pm02d" value="PM02D 电源模块" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="1380" width="240" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="pm02d_in" value="主电输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="pm02d" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pm02d_in_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="pm02d_in" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pm02d_in_c1" value="XT60（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="pm02d_in" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pm02d_in_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="pm02d_in" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pm02d_in_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="pm02d_in" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pm02d_out" value="飞控供电输出" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="pm02d" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pm02d_out_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pm02d_out" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pm02d_out_c1" value="GH1.25 6P" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pm02d_out" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pm02d_out_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pm02d_out" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="pm02d_out_c3" value="5.5V + 电压/电流采样" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pm02d_out" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec" value="12V BEC（多路）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="1410" width="240" height="361" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_in" value="主电输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="bec" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_in_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="bec_in" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_in_c1" value="XT30（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="bec_in" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_in_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="bec_in" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_in_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="bec_in" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o1" value="12V 输出 1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="bec" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o1_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o1" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o1_c1" value="XT30（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o1" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o1_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o1" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o1_c3" value="12V（预留 HM30）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o1" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o2" value="12V 输出 2" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="bec" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o2_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o2" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o2_c1" value="XT30（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o2" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o2_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o2" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o2_c3" value="12V（预留 A8 mini）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o2" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o3" value="12V 输出 3" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="bec" vertex="1">
+          <mxGeometry x="15" y="276" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o3_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o3" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o3_c1" value="XT30（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o3" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o3_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o3" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="bec_o3_c3" value="12V / 1.5A（Mid-360）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o3" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="mid" value="MID360S 激光雷达" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="620" width="240" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="mid_eth" value="激光雷达网线口" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="mid" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mid_eth_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="mid_eth" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="mid_eth_c1" value="出厂10P→RJ45" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="mid_eth" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="mid_eth_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="mid_eth" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="mid_eth_c3" value="100BASE-TX 点云" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="mid_eth" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="mid_pwr" value="激光雷达供电" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="mid" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mid_pwr_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="mid_pwr" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="mid_pwr_c1" value="10P线→XT30（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="mid_pwr" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="mid_pwr_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="mid_pwr" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="mid_pwr_c3" value="12V（独立地）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="mid_pwr" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl" value="飞控-Jetson 控制器" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="620" width="240" height="406" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_eth" value="控制器网口" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="ctrl" vertex="1">
+          <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_eth_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="ctrl_eth" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_eth_c1" value="RJ45（网线）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="ctrl_eth" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_eth_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="ctrl_eth" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_eth_c3" value="100/1000BASE-T" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="ctrl_eth" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pwm" value="电调控制信号输出" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="ctrl" vertex="1">
+          <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pwm_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="ctrl_pwm" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pwm_c1" value="ph2.5" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="ctrl_pwm" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pwm_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="ctrl_pwm" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pwm_c3" value="1-8 电机 PWM" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="ctrl_pwm" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pj" value="控制器供电（Jetson）" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="ctrl" vertex="1">
+          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pj_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="ctrl_pj" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pj_c1" value="XT30（公头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="ctrl_pj" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pj_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="ctrl_pj" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pj_c3" value="12V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="ctrl_pj" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pf" value="飞控供电（POWER1）" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="ctrl" vertex="1">
+          <mxGeometry x="15" y="276" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pf_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="ctrl_pf" vertex="1">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pf_c1" value="GH1.25 6P" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="ctrl_pf" vertex="1">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pf_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="ctrl_pf" vertex="1">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_pf_c3" value="5.5V + 采样" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="ctrl_pf" vertex="1">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_note" value="注：飞控↔Jetson 经载板内部 UART + 以太网交换机互联，无需外部接线" style="text;whiteSpace=wrap;html=1;fontSize=9;fontColor=#666666;align=left;verticalAlign=top;" parent="ctrl" vertex="1">
+          <mxGeometry x="15" y="358" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_b1" value="10AWG 200mm（电池自带）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bat1_out" target="par_in1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_b2" value="10AWG 200mm（电池自带）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bat2_out" target="par_in2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_par" value="10AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="par_out" target="spl_in" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s1" value="10AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="spl_o1" target="pdba_in" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="1267" />
+              <mxPoint x="1300" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_s2" value="10AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="spl_o2" target="pdbb_in" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1620" y="1349" />
+              <mxPoint x="1620" y="2133" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_s3" value="14AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="spl_o3" target="pm02d_in" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s4" value="14AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="spl_o4" target="ubec_in" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1700" y="1513" />
+              <mxPoint x="1700" y="1185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_s5" value="14AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="spl_o5" target="bec_in" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pdba_1" value="12AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdba_o1" target="esc1_pwr" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pdba_2" value="12AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdba_o2" target="esc2_pwr" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="207" />
+              <mxPoint x="950" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pdba_3" value="12AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdba_o3" target="esc3_pwr" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1950" y="289" />
+              <mxPoint x="1950" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pdba_4" value="12AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdba_o4" target="esc4_pwr" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="371" />
+              <mxPoint x="1840" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pdbb_5" value="12AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdbb_o1" target="esc5_pwr" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pdbb_6" value="12AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdbb_o2" target="esc6_pwr" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="1907" />
+              <mxPoint x="950" y="2185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pdbb_7" value="12AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdbb_o3" target="esc7_pwr" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1950" y="1989" />
+              <mxPoint x="1950" y="1825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pdbb_8" value="12AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdbb_o4" target="esc8_pwr" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="2071" />
+              <mxPoint x="1840" y="2185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_mot1" value="20AWG 100mm ×3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esc1_mot" target="m1_mot" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mot2" value="20AWG 100mm ×3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esc2_mot" target="m2_mot" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mot3" value="20AWG 100mm ×3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esc3_mot" target="m3_mot" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mot4" value="20AWG 100mm ×3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esc4_mot" target="m4_mot" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mot5" value="20AWG 100mm ×3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esc5_mot" target="m5_mot" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mot6" value="20AWG 100mm ×3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esc6_mot" target="m6_mot" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mot7" value="20AWG 100mm ×3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esc7_mot" target="m7_mot" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mot8" value="20AWG 100mm ×3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esc8_mot" target="m8_mot" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_jet" value="14AWG 200mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ubec_out" target="ctrl_pj" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1800" y="1267" />
+              <mxPoint x="1800" y="849" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_fc" value="22/28AWG 200mm（出厂线）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pm02d_out" target="ctrl_pf" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1750" y="1527" />
+              <mxPoint x="1750" y="931" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_lidpwr" value="20AWG 250mm（独立地）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bec_o3" target="mid_pwr" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="1721" />
+              <mxPoint x="960" y="767" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_lideth" value="Cat5e 网线 300mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#666666;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mid_eth" target="ctrl_eth" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pwm1" value="M1 · 28AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#666666;fontSize=9;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ctrl_pwm" target="esc1_sig" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="767" />
+              <mxPoint x="1000" y="207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pwm2" value="M2 · 28AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#666666;fontSize=9;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ctrl_pwm" target="esc2_sig" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="767" />
+              <mxPoint x="1040" y="567" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pwm5" value="M5 · 28AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#666666;fontSize=9;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ctrl_pwm" target="esc5_sig" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="767" />
+              <mxPoint x="1290" y="1907" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pwm6" value="M6 · 28AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#666666;fontSize=9;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ctrl_pwm" target="esc6_sig" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="767" />
+              <mxPoint x="1320" y="2267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pwm3" value="M3 · 28AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#666666;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ctrl_pwm" target="esc3_sig" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900" y="767" />
+              <mxPoint x="1900" y="207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pwm4" value="M4 · 28AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#666666;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ctrl_pwm" target="esc4_sig" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1860" y="767" />
+              <mxPoint x="1860" y="567" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pwm7" value="M7 · 28AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#666666;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ctrl_pwm" target="esc7_sig" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900" y="767" />
+              <mxPoint x="1900" y="1907" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pwm8" value="M8 · 28AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#666666;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ctrl_pwm" target="esc8_sig" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1940" y="767" />
+              <mxPoint x="1940" y="2267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
