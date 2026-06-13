@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="uiHmWtnhRkEaSc6x28xa" name="第 1 页">
-    <mxGraphModel dx="1673" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="3100" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="1224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="3100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="zone_bot" value="后部动力组（电机 M5–M8）" style="rounded=1;arcSize=1;dashed=1;dashPattern=6 4;strokeColor=#b0b0b0;fillColor=#fafafa;verticalAlign=top;align=left;fontSize=13;fontStyle=1;fontColor=#999999;spacing=12;spacingTop=4;" parent="1" vertex="1">
           <mxGeometry x="30" y="2240" width="3140" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="title" value="八旋翼无人机接线总图（接口表格式 v6）· 2026-06-12" style="text;html=1;fontSize=22;fontStyle=1;align=center;" parent="1" vertex="1">
+        <mxCell id="title" value="八旋翼无人机接线总图· 2026-06-12" style="text;html=1;fontSize=22;fontStyle=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1100" y="10" width="1260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="legend" value="&lt;b&gt;图例&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#82b366&quot;&gt;■&lt;/font&gt; 绿色 = 电源输入接口&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#b85450&quot;&gt;■&lt;/font&gt; 红色 = 电源输出接口&lt;br&gt;─ 黑色实线 = 电源线&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#0066CC&quot;&gt;┄ 蓝色虚线 = 信号/数据线&lt;/font&gt;&lt;br&gt;线上标注 = 线规 · 长度（依据《无人机线材清单_v1》）&lt;br&gt;⚠ ESC→电机三相线标 20AWG 100mm（实测）；清单 P-07 原为 14AWG 200mm，待统一&lt;br&gt;接头公母按实物：供电输出侧=母头（防短路）/ 受电输入侧=公头；BIFRC 分电板实物已确认（XT90 公头入 · 4×XT60 母头出）" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;spacing=8;" parent="1" vertex="1">
