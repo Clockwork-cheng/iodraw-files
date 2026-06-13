@@ -1346,15 +1346,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_b2" value="10AWG 200mm（电池自带）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=default;fontSize=10;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bat2_out" target="par_in2" edge="1">
-          <mxGeometry x="0.0027" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="350" y="1685" />
-              <mxPoint x="350" y="1679" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="e_pwm3" value="M3 · 28AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#0066CC;fontColor=#0066CC;fontSize=9;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ctrl_pwm" target="esc3_sig" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -1389,6 +1380,15 @@
               <mxPoint x="2520" y="1090" />
               <mxPoint x="2520" y="2817" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_b2" value="10AWG 200mm（电池自带）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=default;fontSize=10;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bat2_out" target="par_in2" edge="1">
+          <mxGeometry x="-0.0441" y="-46" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="1685" />
+              <mxPoint x="350" y="1679" />
+            </Array>
+            <mxPoint x="-36" y="45" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
