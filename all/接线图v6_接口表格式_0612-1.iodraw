@@ -17,7 +17,7 @@
           <mxGeometry x="1100" y="10" width="1260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="legend" value="&lt;b&gt;图例&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#82b366&quot;&gt;■&lt;/font&gt; 绿色 = 电源输入接口&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#b85450&quot;&gt;■&lt;/font&gt; 红色 = 电源输出接口&lt;br&gt;─ 黑色实线 = 电源线&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#0066CC&quot;&gt;┄ 蓝色虚线 = 信号/数据线&lt;/font&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="2560" y="1150" width="560" height="60" as="geometry" />
+          <mxGeometry x="3270" y="50" width="560" height="60" as="geometry" />
         </mxCell>
         <mxCell id="esc1" value="电调 ESC#1" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="100" width="240" height="279" as="geometry" />
