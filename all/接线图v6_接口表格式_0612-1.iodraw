@@ -1383,12 +1383,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e_b2" value="10AWG 200mm（电池自带）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=default;fontSize=10;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bat2_out" target="par_in2" edge="1">
-          <mxGeometry x="0.0441" y="-9" relative="1" as="geometry">
+          <mxGeometry x="0.1735" y="40" relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="340" y="1745" />
+              <mxPoint x="340" y="1685" />
               <mxPoint x="350" y="1685" />
               <mxPoint x="350" y="1679" />
             </Array>
-            <mxPoint y="-18" as="offset" />
+            <mxPoint x="-20" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
