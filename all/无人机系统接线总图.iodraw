@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="HehX5HryH2cyVJ16UO9_" name="第 1 页">
-    <mxGraphModel dx="4070" dy="2743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4120" pageHeight="3260" math="0" shadow="0">
+    <mxGraphModel dx="6105" dy="4115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4120" pageHeight="3260" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1033,9 +1033,6 @@
         <mxCell id="ubec_in_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="ubec_in" vertex="1">
           <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="zone_mid" value="核心区：电源从左到右逐级分配；右侧信号源紧邻控制器、顺序对齐接口" style="rounded=1;arcSize=1;dashed=1;dashPattern=6 4;strokeColor=#b0b0b0;fillColor=#fafafa;verticalAlign=top;align=left;fontSize=13;fontStyle=1;fontColor=#999999;spacing=12;spacingTop=4;" parent="ubec_in" vertex="1">
-          <mxGeometry x="-2325" y="-1213" width="4040" height="1620" as="geometry" />
-        </mxCell>
         <mxCell id="ubec_out" value="12V 输出" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="ubec" vertex="1">
           <mxGeometry x="15" y="112" width="210" height="70" as="geometry" />
         </mxCell>
@@ -1584,6 +1581,9 @@
               <mxPoint x="1630" y="1885" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zone_mid" value="核心区：电源从左到右逐级分配；右侧信号源紧邻控制器、顺序对齐接口" style="rounded=1;arcSize=1;dashed=1;dashPattern=6 4;strokeColor=#b0b0b0;fillColor=#fafafa;verticalAlign=top;align=left;fontSize=13;fontStyle=1;fontColor=#999999;spacing=12;spacingTop=4;" parent="1" vertex="1">
+          <mxGeometry x="30" y="840" width="4040" height="1620" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
