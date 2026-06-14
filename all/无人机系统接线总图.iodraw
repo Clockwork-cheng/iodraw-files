@@ -931,7 +931,7 @@
         <mxCell id="pdb3_o3_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdb3_o3" vertex="1">
           <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="pdb3_o4" value="输出4（预留）" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="pdb3" vertex="1">
+        <mxCell id="pdb3_o4" value="输出4→ A8 mini" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="pdb3" vertex="1">
           <mxGeometry x="15" y="358" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pdb3_o4_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdb3_o4" vertex="1">
