@@ -1465,7 +1465,7 @@
           <mxGeometry x="1260" y="648" width="740" height="64" as="geometry" />
         </mxCell>
         <mxCell id="pwm_bot" value="⟜ 飞控 I/O PWM OUT → M5–M8：28AWG 就近接 ESC#5–8 信号输入（源自控制器 I/O PWM 口，省略长线）" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#E65100;fillColor=#FFF3E0;strokeColor=#EF6C00;dashed=1;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1200" y="2448" width="800" height="64" as="geometry" />
+          <mxGeometry x="1330" y="2448" width="670" height="64" as="geometry" />
         </mxCell>
         <mxCell id="e_b1" value="10AWG 200mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;strokeWidth=2.4;fontColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bat1_out" target="par_in1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1499,8 +1499,8 @@
         <mxCell id="e_s2" value="10AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;strokeWidth=2.4;fontColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="spl_o2" target="pdb2_in" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1240" y="1289" />
-              <mxPoint x="1240" y="2993" />
+              <mxPoint x="1230" y="1289" />
+              <mxPoint x="1230" y="2993" />
             </Array>
           </mxGeometry>
         </mxCell>
