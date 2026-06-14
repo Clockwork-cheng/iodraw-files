@@ -1024,7 +1024,7 @@
           <mxGeometry x="2350" y="1240" width="240" height="360" as="geometry" />
         </mxCell>
         <mxCell id="a8" value="思翼 A8 mini" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="2350" y="1740" width="240" height="180" as="geometry" />
+          <mxGeometry x="2350" y="1740" width="240" height="190" as="geometry" />
         </mxCell>
         <mxCell id="ubec" value="UBEC 12A（Jetson 供电）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="2350" y="1940" width="240" height="197" as="geometry" />
