@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="HehX5HryH2cyVJ16UO9_" name="第 1 页">
-    <mxGraphModel dx="2220" dy="1496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4120" pageHeight="3260" math="0" shadow="0">
+    <mxGraphModel dx="904" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4120" pageHeight="3260" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -946,7 +946,7 @@
         <mxCell id="pdb3_o4_c3" value="14.8V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="pdb3_o4" vertex="1">
           <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="bec" value="12V BEC-1（Mid-360 独立地）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="bec" value="12V BEC-1（Mid-360 独立供电）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1850" y="1000" width="240" height="279" as="geometry" />
         </mxCell>
         <mxCell id="bec_in" value="主电输入" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" parent="bec" vertex="1">
@@ -1515,8 +1515,8 @@
         <mxCell id="e_s4" value="14AWG 350mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;strokeWidth=2.4;fontColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="spl_o4" target="pm02d_in" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1210" y="1453" />
-              <mxPoint x="1210" y="2265" />
+              <mxPoint x="1110" y="1453" />
+              <mxPoint x="1110" y="2265" />
             </Array>
           </mxGeometry>
         </mxCell>
