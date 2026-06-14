@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="HehX5HryH2cyVJ16UO9_" name="第 1 页">
-    <mxGraphModel dx="388" dy="261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4120" pageHeight="3260" math="0" shadow="0">
+    <mxGraphModel dx="1436" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4120" pageHeight="3260" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -725,7 +725,7 @@
           <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
         </mxCell>
         <mxCell id="bat2" value="电池 2（格氏 4S 5300mAh）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1340" width="240" height="115" as="geometry" />
+          <mxGeometry x="60" y="1370" width="240" height="115" as="geometry" />
         </mxCell>
         <mxCell id="bat2_out" value="电池输出" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="bat2" vertex="1">
           <mxGeometry x="15" y="30" width="210" height="70" as="geometry" />
