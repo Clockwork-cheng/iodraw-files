@@ -1489,8 +1489,9 @@
         <mxCell id="e_s1" value="10AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;strokeWidth=2.4;fontColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="spl_o1" target="pdb1_in" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1130" y="1207" />
-              <mxPoint x="1130" y="573" />
+              <mxPoint x="1025" y="880" />
+              <mxPoint x="1210" y="880" />
+              <mxPoint x="1210" y="573" />
             </Array>
           </mxGeometry>
         </mxCell>
