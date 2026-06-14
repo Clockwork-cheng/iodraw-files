@@ -1469,12 +1469,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_hm_usb" value="USB3.0 300mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#8E24AA;strokeWidth=1.6;dashed=1;fontColor=#8E24AA;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hm30_usb" target="ctrl_usb" edge="1">
+        <mxCell id="e_hm_usb" value="USB3.0 300mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#8E24AA;strokeWidth=1.6;dashed=1;fontColor=#8E24AA;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="ctrl_usb" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2730" y="1551" />
               <mxPoint x="2730" y="1291" />
             </Array>
+            <mxPoint x="2575" y="1551" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e_jet" value="14AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;strokeWidth=2.4;fontColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ubec_out" target="ctrl_pj" edge="1">
@@ -1574,23 +1575,8 @@
         <mxCell id="hm30_tel_c3" value="→ 飞控 TEL1" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="hm30_tel" vertex="1">
           <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="hm30_usb" value="USB 视频流" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="2365" y="1516" width="210" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="hm30_usb_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="hm30_usb" vertex="1">
-          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="hm30_usb_c1" value="USB-A" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="hm30_usb" vertex="1">
-          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="hm30_usb_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="hm30_usb" vertex="1">
-          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="hm30_usb_c3" value="→ Jetson USB3.0" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="hm30_usb" vertex="1">
-          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
-        </mxCell>
         <mxCell id="hm30_lan" value="LAN&amp;PWR（接 A8）" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="2365" y="1598" width="210" height="70" as="geometry" />
+          <mxGeometry x="2365" y="1517" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hm30_lan_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="hm30_lan" vertex="1">
           <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
