@@ -1579,7 +1579,7 @@
         <mxCell id="6bW0UiFSaGuzgMrroNS1-7" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" vertex="1" parent="6bW0UiFSaGuzgMrroNS1-4">
           <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="6bW0UiFSaGuzgMrroNS1-8" value="↔ HM30 LAN&amp;PWR（SBUS+RTSP）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" vertex="1" parent="6bW0UiFSaGuzgMrroNS1-4">
+        <mxCell id="6bW0UiFSaGuzgMrroNS1-8" value="12V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" vertex="1" parent="6bW0UiFSaGuzgMrroNS1-4">
           <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
         </mxCell>
         <mxCell id="6bW0UiFSaGuzgMrroNS1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=2.4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#000000;labelBackgroundColor=#ffffff;endArrow=block;" edge="1" parent="1" source="pdb3_o4_c3" target="6bW0UiFSaGuzgMrroNS1-4">
