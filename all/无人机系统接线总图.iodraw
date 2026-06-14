@@ -1479,7 +1479,7 @@
         <mxCell id="hm30_lan_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="hm30_lan" vertex="1">
           <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="hm30_lan_c3" value="↔ A8（供电+信号回传）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="hm30_lan" vertex="1">
+        <mxCell id="hm30_lan_c3" value="↔ A8信号回传）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#000000;" parent="hm30_lan" vertex="1">
           <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
         </mxCell>
         <mxCell id="ctrl_eth" value="控制器网口 ETH-P1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=10;" parent="1" vertex="1">
