@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="HehX5HryH2cyVJ16UO9_" name="第 1 页">
-    <mxGraphModel dx="12260" dy="5487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4120" pageHeight="3260" math="0" shadow="0">
+    <mxGraphModel dx="11293" dy="2058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4120" pageHeight="3260" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="30" y="40" width="4040" height="740" as="geometry" />
         </mxCell>
         <mxCell id="zone_mid" value="核心区：电源从左到右逐级分配；右侧信号源紧邻控制器、顺序对齐接口" style="rounded=1;arcSize=1;dashed=1;dashPattern=6 4;strokeColor=#b0b0b0;fillColor=#fafafa;verticalAlign=top;align=left;fontSize=13;fontStyle=1;fontColor=#999999;spacing=12;spacingTop=4;" parent="1" vertex="1">
-          <mxGeometry x="-13" y="800" width="4040" height="1620" as="geometry" />
+          <mxGeometry x="-4290" y="777" width="4040" height="1620" as="geometry" />
         </mxCell>
         <mxCell id="zone_bot" value="后部动力组（PDB2 + 电调 M5–M8 + 电机）" style="rounded=1;arcSize=1;dashed=1;dashPattern=6 4;strokeColor=#b0b0b0;fillColor=#fafafa;verticalAlign=top;align=left;fontSize=13;fontStyle=1;fontColor=#999999;spacing=12;spacingTop=4;" parent="1" vertex="1">
           <mxGeometry x="30" y="2440" width="4040" height="740" as="geometry" />
