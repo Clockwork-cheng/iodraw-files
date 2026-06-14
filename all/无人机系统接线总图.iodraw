@@ -1337,7 +1337,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_a8_hm" value="RJ45+12V 200mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#8E24AA;strokeWidth=1.6;dashed=1;fontColor=#8E24AA;fontSize=9;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="a8_lan" target="hm30_lan" edge="1">
+        <mxCell id="e_a8_hm" value="RX/TX 200mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#8E24AA;strokeWidth=1.6;dashed=1;fontColor=#8E24AA;fontSize=9;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="a8_lan" target="hm30_lan" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2310" y="1805" />
