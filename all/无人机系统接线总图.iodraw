@@ -1575,6 +1575,21 @@
         <mxCell id="a8_lan_c3" value="↔ HM30 LAN&amp;PWR（SBUS+RTSP）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" parent="a8_lan" vertex="1">
           <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
         </mxCell>
+        <mxCell id="6bW0UiFSaGuzgMrroNS1-4" value="供电+信号" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="2365" y="1850" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6bW0UiFSaGuzgMrroNS1-5" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" vertex="1" parent="6bW0UiFSaGuzgMrroNS1-4">
+          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="6bW0UiFSaGuzgMrroNS1-6" value="RJ45 + 12V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" vertex="1" parent="6bW0UiFSaGuzgMrroNS1-4">
+          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="6bW0UiFSaGuzgMrroNS1-7" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" vertex="1" parent="6bW0UiFSaGuzgMrroNS1-4">
+          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="6bW0UiFSaGuzgMrroNS1-8" value="↔ HM30 LAN&amp;PWR（SBUS+RTSP）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#82b366;" vertex="1" parent="6bW0UiFSaGuzgMrroNS1-4">
+          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
