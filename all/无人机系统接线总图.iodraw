@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="HehX5HryH2cyVJ16UO9_" name="第 1 页">
-    <mxGraphModel dx="2035" dy="1372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4120" pageHeight="3260" math="0" shadow="0">
+    <mxGraphModel dx="977" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4120" pageHeight="3260" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -977,21 +977,6 @@
           <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
         </mxCell>
         <mxCell id="bec_o1_c3" value="12V/1.5A（独立地）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o1" vertex="1">
-          <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="bec_o2" value="12V 输出（预留）" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontSize=10;" parent="bec" vertex="1">
-          <mxGeometry x="15" y="194" width="210" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="bec_o2_c0" value="接口形式" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o2" vertex="1">
-          <mxGeometry x="4" y="20" width="80" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="bec_o2_c1" value="XT30（母头）" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o2" vertex="1">
-          <mxGeometry x="84" y="20" width="122" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="bec_o2_c2" value="电压/线序" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o2" vertex="1">
-          <mxGeometry x="4" y="43" width="80" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="bec_o2_c3" value="12V" style="whiteSpace=wrap;html=1;fontSize=9;fillColor=none;strokeColor=#b85450;" parent="bec_o2" vertex="1">
           <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
         </mxCell>
         <mxCell id="bec2" value="12V BEC-2（HM30 专用）" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;" parent="1" vertex="1">
