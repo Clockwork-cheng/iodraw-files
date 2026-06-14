@@ -1100,7 +1100,7 @@
           <mxGeometry x="84" y="43" width="122" height="23" as="geometry" />
         </mxCell>
         <mxCell id="ctrl" value="飞控-Jetson 控制器" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontSize=11;fontStyle=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="2900" y="980" width="240" height="652" as="geometry" />
+          <mxGeometry x="2900" y="980" width="240" height="580" as="geometry" />
         </mxCell>
         <mxCell id="e_pdb1_1" value="12AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;strokeWidth=2.4;fontColor=#000000;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdb1_o1" target="esc1_pwr" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1364,8 +1364,9 @@
         <mxCell id="e_jet" value="14AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;strokeWidth=2.4;fontColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ubec_out" target="ctrl_pj" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="2575" y="2067" />
               <mxPoint x="2760" y="2067" />
-              <mxPoint x="2760" y="1373" />
+              <mxPoint x="2760" y="1293" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1373,7 +1374,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2790" y="2347" />
-              <mxPoint x="2790" y="1455" />
+              <mxPoint x="2790" y="1375" />
             </Array>
           </mxGeometry>
         </mxCell>
