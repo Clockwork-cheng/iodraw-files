@@ -1520,13 +1520,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_p3_bec" value="16AWG 150mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;strokeWidth=2.4;fontColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdb3_o1" target="bec_in" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1670" y="1087" />
-              <mxPoint x="1670" y="1065" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="e_p3_bec" value="16AWG 150mm" style="rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;strokeWidth=2.4;fontColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdb3_o1" target="bec_in" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_p3_ubec" value="14AWG 250mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;strokeWidth=2.4;fontColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pdb3_o2" target="ubec_in" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1544,7 +1539,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_bec_mid" value="20AWG 200mm（独立地）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;strokeWidth=2.4;fontColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bec_o1" target="mid_pwr" edge="1">
+        <mxCell id="e_bec_mid" value="20AWG 200mm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;endArrow=block;labelBackgroundColor=#ffffff;strokeColor=#000000;strokeWidth=2.4;fontColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bec_o1" target="mid_pwr" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2200" y="1147" />
